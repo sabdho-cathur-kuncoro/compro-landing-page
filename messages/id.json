@@ -1,0 +1,138 @@
+{
+  "navbar": {
+    "products": "Produk",
+    "industry": "Industri",
+    "about": "Tentang Kami",
+    "news": "Berita",
+    "contact": "Hubungi Kami"
+  },
+  "hero": {
+    "headline": "Berinovasi untuk Menghadirkan Teknologi yang Lebih Baik",
+    "subtitle": "Menyediakan solusi kimia dan polimer canggih untuk industri modern"
+  },
+  "bands": [
+    {
+      "tag1": "Persiapan Pigmen",
+      "tag2": "Pasta Pigmen | Dispersi Halus",
+      "title": "Pasta pigmen dari PT Pakar Kimia Utama dikelompokkan ke dalam tiga sistem utama: berbasis air, berbasis pelarut, dan bebas pelarut untuk aplikasi pelapisan tingkat lanjut."
+    },
+    {
+      "tag1": "Silikon",
+      "tag2": "Polimer Berkinerja Tinggi",
+      "title": "Teknologi silikon canggih yang dirancang untuk memberikan daya tahan, fleksibilitas, dan kinerja unggul pada aplikasi industri."
+    },
+    {
+      "tag1": "Biocides",
+      "tag2": "Sistem Perlindungan",
+      "title": "Sistem pengawet yang sangat efektif untuk melindungi material dari bakteri, jamur, dan pertumbuhan mikroorganisme."
+    },
+    {
+      "tag1": "Aditif",
+      "tag2": "Peningkat Fungsional",
+      "title": "Aditif khusus yang diformulasikan untuk meningkatkan efisiensi proses, stabilitas, dan kinerja di berbagai industri."
+    }
+  ],
+  "latestNews": {
+    "sectionTitle": "Berita Terbaru",
+    "seeAll": "Lihat Semua Berita",
+    "items": [
+      {
+        "title": "PT Pakar Kimia Utama di International Coatings Expo 2025",
+        "excerpt": "PT Pakar Kimia Utama berpartisipasi dalam International Coatings Expo 2025 dengan menampilkan inovasi pasta pigmen dan solusi aditif fungsional kepada para pelaku industri global.",
+        "date": "15 Januari 2025"
+      },
+      {
+        "title": "Peluncuran Pasta Pigmen Berbasis Air Terbaru",
+        "excerpt": "Kami dengan bangga memperkenalkan pasta pigmen berbasis air terbaru yang dikembangkan untuk mendukung aplikasi industri yang ramah lingkungan dan berkinerja tinggi.",
+        "date": "20 Desember 2024"
+      },
+      {
+        "title": "PT Pakar Kimia Utama Memperluas Lini Produk Silikon",
+        "excerpt": "Portofolio silikon kami diperluas dengan sistem polimer berkinerja tinggi yang dirancang untuk proses manufaktur dan aplikasi industri tingkat lanjut.",
+        "date": "28 November 2024"
+      }
+    ]
+  },
+  "footer": {
+    "products": "Produk",
+    "industry": "Industri",
+    "company": "Perusahaan",
+    "contact": "Kontak",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat & Ketentuan"
+  },
+  "products": {
+    "hero": {
+      "title": "Produk Kami",
+      "subtitle": "Solusi kimia inovatif untuk industri modern"
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "products": "Produk"
+    },
+    "categories": {
+      "pigment": {
+        "title": "Persiapan Pigmen",
+        "desc": "Pasta pigmen dan dispersi berkualitas tinggi"
+      },
+      "silicone": {
+        "title": "Silikon",
+        "desc": "Solusi polimer berkinerja tinggi"
+      },
+      "biocides": {
+        "title": "Biosida",
+        "desc": "Sistem perlindungan dan pengawetan lanjutan"
+      },
+      "additives": {
+        "title": "Aditif",
+        "desc": "Penguat fungsional untuk performa lebih baik"
+      }
+    },
+    "cta": "Lihat Produk"
+  },
+  "productList": {
+    "breadcrumb": {
+      "home": "Beranda",
+      "products": "Produk"
+    },
+    "categories": {
+      "pigment": {
+        "title": "Persiapan Pigmen",
+        "subtitle": "Pasta pigmen dan dispersi berkualitas tinggi untuk aplikasi pelapisan tingkat lanjut"
+      },
+      "silicone": {
+        "title": "Silikon",
+        "subtitle": "Sistem polimer berkinerja tinggi untuk berbagai solusi industri"
+      },
+      "biocides": {
+        "title": "Biosida",
+        "subtitle": "Sistem perlindungan dan pengawetan tingkat lanjut untuk aplikasi industri"
+      },
+      "additives": {
+        "title": "Aditif",
+        "subtitle": "Penguat fungsional yang dirancang untuk meningkatkan efisiensi proses dan kinerja"
+      }
+    }
+  },
+  "productDetail": {
+    "breadcrumb": {
+      "home": "Beranda",
+      "products": "Produk"
+    },
+    "contactButton": "Hubungi Sales",
+    "backButton": "Kembali ke Produk",
+    "defaultDescription": "Produk kimia industri berkualitas tinggi yang dirancang untuk performa dan keandalan.",
+    "longDescription": "Produk ini diformulasikan untuk memberikan performa optimal dalam aplikasi industri yang menuntut. Menawarkan dispersi unggul, stabilitas tinggi, dan kompatibilitas luas.",
+    "tabs": {
+      "description": "Deskripsi",
+      "application": "Aplikasi",
+      "features": "Fitur"
+    },
+    "points": {
+      "quality": "Kualitas warna dan dispersi yang konsisten",
+      "performance": "Performa tinggi di lingkungan industri",
+      "compatibility": "Kompatibel dengan berbagai sistem resin",
+      "stability": "Stabilitas penyimpanan dan proses yang sangat baik"
+    }
+  }
+}

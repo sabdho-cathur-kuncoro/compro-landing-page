@@ -1,0 +1,138 @@
+{
+  "navbar": {
+    "products": "Products",
+    "industry": "Industry",
+    "about": "About Us",
+    "news": "News",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "headline": "Innovating to Deliver Better Technology",
+    "subtitle": "Providing advanced chemical and polymer solutions for modern industries"
+  },
+  "bands": [
+    {
+      "tag1": "Pigment Preparations",
+      "tag2": "Pigment Paste | Finely Dispersed",
+      "title": "Pigment pastes from PT Pakar Kimia Utama are classified into three main systems: Water-Based, Solvent-Based, and Solvent-Free solutions for advanced coating applications."
+    },
+    {
+      "tag1": "Silicone",
+      "tag2": "High Performance Polymer",
+      "title": "Advanced silicone technologies engineered to deliver durability, flexibility, and superior performance for demanding industrial applications."
+    },
+    {
+      "tag1": "Biocides",
+      "tag2": "Protection System",
+      "title": "Highly effective preservation systems designed to protect materials against bacteria, fungi, and microbial contamination."
+    },
+    {
+      "tag1": "Additives",
+      "tag2": "Functional Enhancers",
+      "title": "Specialty additives formulated to enhance processing efficiency, stability, and performance across a wide range of industries."
+    }
+  ],
+  "latestNews": {
+    "sectionTitle": "Latest News",
+    "seeAll": "See All News",
+    "items": [
+      {
+        "title": "PT Pakar Kimia Utama at International Coatings Expo 2025",
+        "excerpt": "PT Pakar Kimia Utama participated in the International Coatings Expo 2025, presenting innovative pigment preparations and functional additive solutions to global industry leaders.",
+        "date": "January 15, 2025"
+      },
+      {
+        "title": "New Water-Based Pigment Paste Launched",
+        "excerpt": "We proudly introduce our latest water-based pigment paste, developed to support environmentally friendly and high-performance industrial applications.",
+        "date": "December 20, 2024"
+      },
+      {
+        "title": "PT Pakar Kimia Utama Expands Silicone Product Line",
+        "excerpt": "Our silicone portfolio expands with new high-performance polymer systems engineered for advanced manufacturing and industrial processing.",
+        "date": "November 28, 2024"
+      }
+    ]
+  },
+  "footer": {
+    "products": "Products",
+    "industry": "Industry",
+    "company": "Company",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "products": {
+    "hero": {
+      "title": "Our Products",
+      "subtitle": "Innovative chemical solutions for modern industries"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "products": "Products"
+    },
+    "categories": {
+      "pigment": {
+        "title": "Pigment Preparations",
+        "desc": "High quality pigment pastes and dispersions"
+      },
+      "silicone": {
+        "title": "Silicone",
+        "desc": "High performance polymer solutions"
+      },
+      "biocides": {
+        "title": "Biocides",
+        "desc": "Advanced protection and preservation systems"
+      },
+      "additives": {
+        "title": "Additives",
+        "desc": "Functional enhancers for better performance"
+      }
+    },
+    "cta": "Explore Products"
+  },
+  "productList": {
+    "breadcrumb": {
+      "home": "Home",
+      "products": "Products"
+    },
+    "categories": {
+      "pigment": {
+        "title": "Pigment Preparations",
+        "subtitle": "High quality pigment pastes and dispersions for advanced coating applications"
+      },
+      "silicone": {
+        "title": "Silicone",
+        "subtitle": "High performance polymer systems for industrial solutions"
+      },
+      "biocides": {
+        "title": "Biocides",
+        "subtitle": "Advanced protection and preservation systems for industrial applications"
+      },
+      "additives": {
+        "title": "Additives",
+        "subtitle": "Functional enhancers designed to improve processing efficiency and performance"
+      }
+    }
+  },
+  "productDetail": {
+    "breadcrumb": {
+      "home": "Home",
+      "products": "Products"
+    },
+    "contactButton": "Contact Sales",
+    "backButton": "Back to Products",
+    "defaultDescription": "High quality industrial chemical product designed for performance and reliability.",
+    "longDescription": "This product is formulated to deliver excellent performance in demanding industrial applications. It offers superior dispersion, stability, and compatibility with a wide range of systems.",
+    "tabs": {
+      "description": "Description",
+      "application": "Application",
+      "features": "Features"
+    },
+    "points": {
+      "quality": "Consistent color quality and dispersion",
+      "performance": "High performance in industrial environments",
+      "compatibility": "Compatible with multiple resin systems",
+      "stability": "Excellent storage and processing stability"
+    }
+  }
+}
