@@ -4,6 +4,7 @@ import { locales, defaultLocale } from "./i18n";
 export default createMiddleware({
   locales,
   defaultLocale,
+  localePrefix: "always",
 });
 
 export const config = {
@@ -14,7 +15,6 @@ export const config = {
      * - _next (Next.js internals)
      * - api (API routes)
      */
-    // "/((?!api|_next|.*\\..*).*)",
-    "/((?!_next|.*\\..*).*)",
+    "/((?!api|_next|.*\\..*).*)",
   ],
 };
