@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 
 interface ProductCardProps {
@@ -24,7 +24,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
           />
-          
+
           {/* Category Badge */}
           <div className="absolute top-3 left-3 bg-blue-900 text-white text-xs font-semibold px-3 py-1 rounded-full">
             {product.category}
@@ -32,7 +32,9 @@ export default function ProductCard({ product }: ProductCardProps) {
 
           {/* Hover Overlay */}
           <div className="absolute inset-0 bg-blue-900/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-            <span className="text-white font-semibold text-lg">View Detail</span>
+            <span className="text-white font-semibold text-lg">
+              View Detail
+            </span>
           </div>
         </div>
 

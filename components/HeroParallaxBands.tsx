@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 const images = ["/band-1.jpg", "/band-2.jpg", "/band-3.jpg", "/band-4.jpg"];
 

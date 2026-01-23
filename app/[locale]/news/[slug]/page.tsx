@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { newsArticles } from "@/data/news";
 
@@ -53,7 +53,7 @@ export default function NewsPage({ params }: NewsPageProps) {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
+      <section className="bg-linear-to-r from-blue-900 to-blue-700 text-white py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <Link
@@ -113,7 +113,7 @@ export default function NewsPage({ params }: NewsPageProps) {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             {/* Featured Image */}
-            <div className="relative h-96 lg:h-[600px] bg-gray-200 rounded-lg overflow-hidden mb-12">
+            <div className="relative h-96 lg:h-150 bg-gray-200 rounded-lg overflow-hidden mb-12">
               <Image
                 src={article.image}
                 alt={article.title}
@@ -148,7 +148,7 @@ export default function NewsPage({ params }: NewsPageProps) {
 
               <div className="bg-blue-50 border-l-4 border-blue-900 p-6 my-8 rounded-r-lg">
                 <p className="text-gray-700 italic">
-                  &ldquo;Industry automation is not just about replacing humans with machines&mdash;it's about creating smarter, more efficient systems that work in harmony with human expertise.&rdquo;
+                  &ldquo;Industry automation is not just about replacing humans with machines&mdash;it&apos;s about creating smarter, more efficient systems that work in harmony with human expertise.&rdquo;
                 </p>
               </div>
 
@@ -213,7 +213,7 @@ export default function NewsPage({ params }: NewsPageProps) {
                     className="group"
                   >
                     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 h-full flex flex-col">
-                      <div className="relative h-48 bg-gray-200 overflow-hidden flex-shrink-0">
+                      <div className="relative h-48 bg-gray-200 overflow-hidden shrink-0">
                         <Image
                           src={relatedArticle.image}
                           alt={relatedArticle.title}
@@ -224,7 +224,7 @@ export default function NewsPage({ params }: NewsPageProps) {
                           {relatedArticle.category}
                         </div>
                       </div>
-                      <div className="p-6 flex flex-col flex-grow">
+                      <div className="p-6 flex flex-col grow">
                         <div className="flex items-center text-sm text-gray-500 mb-3">
                           <time dateTime={relatedArticle.date}>
                             {new Date(relatedArticle.date).toLocaleDateString("en-US", {
@@ -237,7 +237,7 @@ export default function NewsPage({ params }: NewsPageProps) {
                         <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-900 transition-colors">
                           {relatedArticle.title}
                         </h3>
-                        <p className="text-gray-600 text-sm line-clamp-3 flex-grow">
+                        <p className="text-gray-600 text-sm line-clamp-3 grow">
                           {relatedArticle.excerpt}
                         </p>
                         <div className="mt-4 text-blue-900 font-semibold text-sm group-hover:text-blue-700 transition-colors">

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { productCategories } from "@/data/productCategories";
 import { getTranslations } from "next-intl/server";
 import { ProductsGridWrapper } from "@/components/ProductsGridWrapper";

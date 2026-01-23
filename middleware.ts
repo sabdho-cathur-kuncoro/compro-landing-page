@@ -14,6 +14,7 @@ export const config = {
      * - _next (Next.js internals)
      * - api (API routes)
      */
-    "/((?!api|_next|.*\\..*).*)",
+    // "/((?!api|_next|.*\\..*).*)",
+    "/((?!_next|.*\\..*).*)",
   ],
 };

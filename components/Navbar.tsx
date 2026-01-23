@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { Search, User, Menu, X } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
+import { Link } from "@/i18n/navigation";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
