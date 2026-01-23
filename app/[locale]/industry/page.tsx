@@ -2,26 +2,52 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { industries } from "@/data/industries";
+import { getTranslations } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "Industries",
-  description: "Discover how our solutions serve diverse industrial sectors from automotive to pharmaceuticals.",
+  description:
+    "Discover how our solutions serve diverse industrial sectors from automotive to pharmaceuticals.",
 };
 
-export default function IndustryPage() {
+type Props = {
+  params: Promise<{
+    locale: string;
+  }>;
+};
+
+export default async function IndustryPage({ params }: Props) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "industries" });
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Industries We Serve
-            </h1>
-            <p className="text-xl text-blue-100">
-              Tailored automation and manufacturing solutions for diverse industrial sectors.
-            </p>
+      {/* ================= FULL HEIGHT HERO ================= */}
+      <section className="relative h-screen flex items-center justify-center bg-black overflow-hidden">
+        <Image
+          src="/hero-bg.jpg"
+          alt="Products background"
+          fill
+          sizes="100vw"
+          priority
+          className="object-cover opacity-70"
+        />
+
+        <div className="relative text-center text-white px-6">
+          {/* Breadcrumb */}
+          <div className="text-sm mb-6 opacity-80">
+            {t("breadcrumb.home")} /{" "}
+            <span className="font-medium">{t("breadcrumb.industries")}</span>
           </div>
+
+          {/* Title */}
+          <h1 className="text-5xl md:text-6xl font-semibold mb-6">
+            {t("hero.title")}
+          </h1>
+
+          {/* Subtitle */}
+          <p className="max-w-2xl mx-auto text-lg md:text-xl opacity-90">
+            {t("hero.subtitle")}
+          </p>
         </div>
       </section>
 
@@ -43,7 +69,7 @@ export default function IndustryPage() {
                       fill
                       className="object-cover group-hover:scale-110 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                    <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent"></div>
                     <div className="absolute bottom-0 left-0 right-0 p-6">
                       <h2 className="text-2xl font-bold text-white mb-2 group-hover:text-blue-200 transition-colors">
                         {industry.title}
@@ -54,7 +80,7 @@ export default function IndustryPage() {
                     <p className="text-gray-600 mb-4 line-clamp-3">
                       {industry.description}
                     </p>
-                    <div className="flex items-center text-blue-900 font-semibold group-hover:text-blue-700 transition-colors">
+                    <div className="flex items-center text-primary font-semibold group-hover:text-primary-hover transition-colors">
                       <span>Learn More</span>
                       <svg
                         className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform"
@@ -83,16 +109,14 @@ export default function IndustryPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Don't See Your Industry?
+              {t("cta.title")}
             </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              We work with businesses across all sectors. Contact us to discuss how to transform your operations.
-            </p>
+            <p className="text-xl text-gray-600 mb-8">{t("cta.subtitle")}</p>
             <Link
               href="/contact"
-              className="inline-flex items-center bg-blue-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-800 transition-colors shadow-lg"
+              className="inline-flex items-center bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-hover transition-colors shadow-lg"
             >
-              Contact Us
+              {t("cta.btn")}
               <svg
                 className="ml-2 h-5 w-5"
                 fill="none"

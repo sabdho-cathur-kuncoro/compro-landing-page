@@ -26,7 +26,7 @@ export default async function ProductDetailPage({ params }: Props) {
   return (
     <main className="bg-bg min-h-screen">
       {/* ================= HERO HEADER ================= */}
-      <section className="relative h-[260px] flex items-center bg-black">
+      <section className="relative h-65 flex items-center bg-black">
         <Image
           src={product.image}
           alt={product.name}
@@ -50,7 +50,7 @@ export default async function ProductDetailPage({ params }: Props) {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-16">
           {/* LEFT — IMAGE */}
-          <div className="relative h-[420px] rounded-xl overflow-hidden shadow">
+          <div className="relative h-105 rounded-xl overflow-hidden shadow">
             <Image
               src={product.image}
               alt={product.name}
@@ -109,7 +109,7 @@ export default async function ProductDetailPage({ params }: Props) {
 
           {/* DESCRIPTION */}
           <div className="space-y-6 text-text leading-relaxed">
-            <p>{product.longDesc || t("longDescription")}</p>
+            <p>{product.desc || t("longDescription")}</p>
 
             <ul className="list-disc pl-6 space-y-2 text-text-muted">
               <li>{t("points.quality")}</li>

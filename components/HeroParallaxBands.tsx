@@ -3,41 +3,7 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-
-// const bands = [
-//   {
-//     id: 1,
-//     tag1: "Pigment Preparations",
-//     tag2: "Pigment Paste | Finely Dispersed",
-//     title:
-//       "PT Pakar Kimia Utama Pigment pastes are basically grouped into three systems : Water-Based, Solvent Based and Solvent-Free for Solvent Based.",
-//     image: "/band-1.jpg",
-//   },
-//   {
-//     id: 2,
-//     tag1: "Silicone",
-//     tag2: "High Performance Polymer",
-//     title:
-//       "Advanced silicone solutions designed for durability, flexibility and performance in industrial applications.",
-//     image: "/band-2.jpg",
-//   },
-//   {
-//     id: 3,
-//     tag1: "Biocides",
-//     tag2: "Protection System",
-//     title:
-//       "Effective preservation systems to protect materials against bacteria, fungi and microbial growth.",
-//     image: "/band-3.jpg",
-//   },
-//   {
-//     id: 4,
-//     tag1: "Additives",
-//     tag2: "Functional Enhancers",
-//     title:
-//       "Specialty additives to improve processing, stability and performance across multiple industries.",
-//     image: "/band-4.jpg",
-//   },
-// ];
+import Link from "next/link";
 
 const images = ["/band-1.jpg", "/band-2.jpg", "/band-3.jpg", "/band-4.jpg"];
 
@@ -50,6 +16,8 @@ export default function HeroParallaxBands() {
     tag1: t(`${index}.tag1`),
     tag2: t(`${index}.tag2`),
     title: t(`${index}.title`),
+    path: t(`${index}.slug`),
+    cta: t(`${index}.cta`),
     image: images[index],
   }));
 
@@ -154,7 +122,8 @@ export default function HeroParallaxBands() {
 
             {/* CTA */}
             <div className="mt-8">
-              <button
+              <Link
+                href={item.path}
                 className="
                 flex items-center gap-3
                 bg-transparent
@@ -175,8 +144,8 @@ export default function HeroParallaxBands() {
                 >
                   →
                 </span>
-                Read More
-              </button>
+                {item.cta}
+              </Link>
             </div>
           </div>
         </div>

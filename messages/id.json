@@ -14,22 +14,30 @@
     {
       "tag1": "Persiapan Pigmen",
       "tag2": "Pasta Pigmen | Dispersi Halus",
-      "title": "Pasta pigmen dari PT Pakar Kimia Utama dikelompokkan ke dalam tiga sistem utama: berbasis air, berbasis pelarut, dan bebas pelarut untuk aplikasi pelapisan tingkat lanjut."
+      "title": "Pasta pigmen dari PT Pakar Kimia Utama dikelompokkan ke dalam tiga sistem utama: berbasis air, berbasis pelarut, dan bebas pelarut untuk aplikasi pelapisan tingkat lanjut.",
+      "slug": "/products/pigment",
+      "cta": "Lebih Lanjut"
     },
     {
       "tag1": "Silikon",
       "tag2": "Polimer Berkinerja Tinggi",
-      "title": "Teknologi silikon canggih yang dirancang untuk memberikan daya tahan, fleksibilitas, dan kinerja unggul pada aplikasi industri."
+      "title": "Teknologi silikon canggih yang dirancang untuk memberikan daya tahan, fleksibilitas, dan kinerja unggul pada aplikasi industri.",
+      "slug": "/products/silicone",
+      "cta": "Lebih Lanjut"
     },
     {
       "tag1": "Biocides",
       "tag2": "Sistem Perlindungan",
-      "title": "Sistem pengawet yang sangat efektif untuk melindungi material dari bakteri, jamur, dan pertumbuhan mikroorganisme."
+      "title": "Sistem pengawet yang sangat efektif untuk melindungi material dari bakteri, jamur, dan pertumbuhan mikroorganisme.",
+      "slug": "/products/biocides",
+      "cta": "Lebih Lanjut"
     },
     {
       "tag1": "Aditif",
       "tag2": "Peningkat Fungsional",
-      "title": "Aditif khusus yang diformulasikan untuk meningkatkan efisiensi proses, stabilitas, dan kinerja di berbagai industri."
+      "title": "Aditif khusus yang diformulasikan untuk meningkatkan efisiensi proses, stabilitas, dan kinerja di berbagai industri.",
+      "slug": "/products/additives",
+      "cta": "Lebih Lanjut"
     }
   ],
   "latestNews": {
@@ -54,12 +62,19 @@
     ]
   },
   "footer": {
-    "products": "Produk",
-    "industry": "Industri",
-    "company": "Perusahaan",
-    "contact": "Kontak",
-    "privacy": "Kebijakan Privasi",
-    "terms": "Syarat & Ketentuan"
+    "label": {
+      "follow": "Ikuti Kami",
+      "address": "Alamat",
+      "contact": "Kontak"
+    },
+    "nav": {
+      "products": "Produk",
+      "industry": "Industri",
+      "company": "Perusahaan",
+      "contact": "Kontak",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Syarat & Ketentuan"
+    }
   },
   "products": {
     "hero": {
@@ -133,6 +148,291 @@
       "performance": "Performa tinggi di lingkungan industri",
       "compatibility": "Kompatibel dengan berbagai sistem resin",
       "stability": "Stabilitas penyimpanan dan proses yang sangat baik"
+    }
+  },
+  "industries": {
+    "hero": {
+      "title": "Industri yang Kami Layani",
+      "subtitle": "Solusi otomasi dan manufaktur yang disesuaikan untuk berbagai sektor industri."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "industries": "Industri"
+    },
+    "cta": {
+      "title": "Tidak menemukan industri Anda?",
+      "subtitle": "Kami bekerja sama dengan berbagai sektor industri. Hubungi kami untuk mendiskusikan bagaimana kami dapat membantu mentransformasi operasional Anda.",
+      "btn": "Hubungi Kami"
+    },
+    "ctaDetail": {
+      "title": "Siap Mengoptimalkan Operasional Anda?",
+      "subtitle": "Hubungi kami untuk mengetahui bagaimana solusi kami dapat membantu bisnis Anda mencapai keunggulan operasional.",
+      "btn": "Hubungi Kami"
+    }
+  },
+  "industryDetail": {
+    "items": {
+      "automotive": {
+        "title": "Otomotif",
+        "description": "Solusi komprehensif untuk sektor manufaktur otomotif, mulai dari otomasi lini perakitan hingga sistem pengendalian kualitas. Teknologi kami membantu produsen otomotif meningkatkan efisiensi, mengurangi cacat produksi, dan memenuhi standar industri tertinggi."
+      },
+
+      "food-beverage": {
+        "title": "Makanan & Minuman",
+        "description": "Solusi otomasi dan pengendalian kualitas khusus untuk produksi makanan dan minuman. Sistem kami memastikan kepatuhan terhadap regulasi keamanan pangan sekaligus memaksimalkan efisiensi produksi dan konsistensi produk."
+      },
+
+      "pharmaceutical": {
+        "title": "Farmasi",
+        "description": "Solusi otomasi presisi untuk manufaktur farmasi dengan kepatuhan ketat terhadap persyaratan regulasi. Sistem kami menjamin kualitas produk, keterlacakan, serta kepatuhan terhadap standar FDA dan regulasi internasional lainnya."
+      },
+
+      "electronics": {
+        "title": "Elektronik",
+        "description": "Solusi manufaktur canggih untuk industri elektronik, mencakup perakitan presisi tinggi, pengujian otomatis, dan sistem inspeksi kualitas. Mendukung produksi cepat komponen elektronik yang kompleks."
+      },
+
+      "chemical": {
+        "title": "Kimia",
+        "description": "Solusi otomasi dan pemantauan yang andal untuk pabrik pengolahan kimia. Sistem kami memastikan operasi yang aman, pengendalian proses kimia yang presisi, serta kepatuhan terhadap regulasi lingkungan."
+      },
+
+      "textile": {
+        "title": "Tekstil",
+        "description": "Solusi otomasi untuk manufaktur tekstil, mulai dari produksi benang hingga penyempurnaan kain. Sistem kami mengoptimalkan alur produksi, mengurangi limbah material, dan meningkatkan kualitas produk."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "PT Pakar Kimia Utama",
+      "subtitle": "Memberdayakan bisnis dengan solusi otomasi industri dan manufaktur berteknologi tinggi sejak tahun 2010."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "about": "Tentang Kami"
+    },
+    "body": {
+      "title": "Siapa Kami",
+      "desc1": "PT Pakar Kimia Utama adalah penyedia terkemuka solusi otomasi industri dan manufaktur. Didirikan pada tahun 2010, kami telah berada di garis depan inovasi teknologi, membantu berbagai perusahaan di berbagai sektor industri mencapai keunggulan operasional.",
+      "desc2": "Tim kami yang terdiri dari para insinyur ahli dan spesialis industri bekerja tanpa henti untuk mengembangkan solusi yang meningkatkan efisiensi, menekan biaya, dan meningkatkan produktivitas bagi klien kami di seluruh dunia.",
+      "client": "Klien",
+      "years": "Tahun Pengalaman",
+      "city": "Kota Terlayani",
+      "engineers": "Insinyur Ahli"
+    },
+    "vision": {
+      "title": "Visi Kami",
+      "desc": "Menjadi pemimpin global dalam solusi otomasi industri dan manufaktur cerdas, memberdayakan bisnis dari berbagai skala untuk mencapai efisiensi, kualitas, dan inovasi yang luar biasa dalam operasional mereka."
+    },
+    "mision": {
+      "title": "Misi Kami",
+      "desc": "Menyediakan solusi otomasi yang mutakhir, andal, dan dapat dikembangkan untuk mentransformasi proses manufaktur, mengurangi dampak lingkungan, serta menciptakan nilai berkelanjutan bagi klien dan para pemangku kepentingan."
+    },
+    "timeline": {
+      "title": "Perjalanan Kami",
+      "desc": "Linimasa tonggak penting dan pencapaian utama perusahaan kami dari tahun ke tahun.",
+      "milestones": [
+        {
+          "year": "2010",
+          "title": "Perusahaan Didirikan",
+          "description": "PT Pakar Kimia Utama didirikan dengan visi merevolusi otomasi industri"
+        },
+        {
+          "year": "2013",
+          "title": "Terobosan Besar Pertama",
+          "description": "Meluncurkan sistem otomasi unggulan untuk industri manufaktur"
+        },
+        {
+          "year": "2016",
+          "title": "Ekspansi Global",
+          "description": "Membuka kantor perwakilan di kawasan Eropa dan Asia Pasifik"
+        },
+        {
+          "year": "2019",
+          "title": "Penghargaan Inovasi",
+          "description": "Menerima penghargaan atas terobosan integrasi teknologi robotika"
+        },
+        {
+          "year": "2022",
+          "title": "Peluncuran Smart Manufacturing",
+          "description": "Memperkenalkan solusi manufaktur cerdas berbasis kecerdasan buatan (AI)"
+        },
+        {
+          "year": "2026",
+          "title": "Pemimpin Industri",
+          "description": "Menjadi penyedia terkemuka yang melayani lebih dari 500 klien di seluruh dunia"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bergabung Bersama Kami",
+      "subtitle": "Jadilah bagian dari misi kami untuk mentransformasi industri melalui solusi otomasi yang inovatif.",
+      "btn": "Hubungi Kami"
+    }
+  },
+  "news": {
+    "hero": {
+      "title": "Berita & Wawasan",
+      "subtitle": "Ikuti perkembangan terbaru, inovasi, dan wawasan industri terkini."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "news": "Berita"
+    },
+    "articles": {
+      "title": "Artikel Terbaru",
+      "cta": "Baca Selengkapnya",
+      "list": [
+        {
+          "id": "1",
+          "slug": "new-automation-system-launch",
+          "title": "Peluncuran Sistem Otomasi Industri Generasi Terbaru",
+          "excerpt": "Kami dengan bangga mengumumkan peluncuran sistem otomasi industri terbaru kami dengan fitur perawatan prediktif berbasis AI dan kemampuan IoT yang ditingkatkan.",
+          "content": "Kami dengan bangga mengumumkan peluncuran sistem otomasi industri terbaru kami dengan fitur perawatan prediktif berbasis AI dan kemampuan IoT yang ditingkatkan. Solusi revolusioner ini merupakan lompatan besar dalam teknologi manufaktur.\n\nSistem baru ini mengintegrasikan algoritma pembelajaran mesin canggih yang menganalisis kinerja peralatan secara real-time dan memprediksi potensi kerusakan sebelum terjadi. Pendekatan proaktif ini membantu produsen mengurangi waktu henti hingga 40% dan memperpanjang umur peralatan.\n\nFitur utama sistem ini meliputi:\n\n• Pemantauan real-time dengan dashboard analitik berbasis cloud\n• Peringatan perawatan prediktif berbasis AI\n• Integrasi mulus dengan sistem SCADA yang ada\n• Konektivitas sensor IoT yang ditingkatkan\n• Otomasi alur kerja yang dapat disesuaikan\n\nPengguna awal melaporkan peningkatan efisiensi operasional dan penghematan biaya yang signifikan. Sistem ini sangat bermanfaat bagi produsen dengan lini produksi kompleks dan peralatan bernilai tinggi.\n\nTim kami bekerja erat dengan mitra industri untuk memastikan sistem ini memenuhi standar keandalan dan kinerja tertinggi.",
+          "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "date": "2026-01-15",
+          "author": "Sarah Johnson",
+          "category": "Peluncuran Produk"
+        },
+        {
+          "id": "2",
+          "slug": "sustainability-initiative",
+          "title": "Mendorong Keberlanjutan Manufaktur Melalui Teknologi Cerdas",
+          "excerpt": "Pelajari bagaimana solusi manufaktur cerdas kami membantu perusahaan mengurangi dampak lingkungan sekaligus meningkatkan efisiensi operasional.",
+          "content": "Keberlanjutan menjadi prioritas utama bagi produsen di seluruh dunia, dan teknologi cerdas memainkan peran penting dalam mencapai tujuan lingkungan.\n\nDengan Sistem Pemantauan Energi kami, produsen dapat:\n\n• Melacak konsumsi energi secara real-time\n• Mengidentifikasi inefisiensi produksi\n• Menerima peringatan penggunaan energi abnormal\n• Menghasilkan laporan kepatuhan\n\nHasil awal sangat mengesankan. Salah satu produsen otomotif berhasil mengurangi konsumsi energi hingga 25% dalam enam bulan.\n\nSolusi kami juga membantu melalui:\n\n• Pengurangan limbah material\n• Perpanjangan umur peralatan\n• Optimalisasi logistik\n• Operasional tanpa kertas\n\nKami percaya bahwa keberlanjutan dan profitabilitas dapat berjalan seiring.",
+          "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=600&fit=crop",
+          "date": "2026-01-10",
+          "author": "Michael Chen",
+          "category": "Keberlanjutan"
+        },
+        {
+          "id": "3",
+          "slug": "industry-4-0-conference",
+          "title": "Konferensi Industri 4.0: Wawasan Utama dan Tren Masa Depan",
+          "excerpt": "Tim kami membagikan wawasan dari konferensi Industri 4.0 terbaru tentang tren dan masa depan manufaktur cerdas.",
+          "content": "Konferensi Industri 4.0 mempertemukan para pemimpin manufaktur dan inovator teknologi.\n\nAI menjadi sorotan utama dalam konferensi ini. Teknologi Digital Twin semakin banyak digunakan, dan Edge Computing semakin penting untuk aplikasi real-time.\n\nKeberlanjutan kini menjadi keunggulan kompetitif, dan pengembangan tenaga kerja menjadi fokus utama.\n\nKami semakin yakin dengan visi kami untuk terus berada di garis depan inovasi Industri 4.0.",
+          "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "date": "2026-01-05",
+          "author": "Emily Rodriguez",
+          "category": "Wawasan Industri"
+        },
+        {
+          "id": "4",
+          "slug": "success-story-pharmaceutical",
+          "title": "Kisah Sukses: Transformasi Manufaktur Farmasi",
+          "excerpt": "Temukan bagaimana produsen farmasi terkemuka mencapai kualitas produk 99,9% dengan sistem kontrol kualitas otomatis kami.",
+          "content": "Kami membantu produsen farmasi meningkatkan kualitas produksi hingga 99,9% dengan sistem inspeksi otomatis.\n\nHasilnya meliputi:\n\n• Waktu inspeksi berkurang 60%\n• Penolakan palsu turun 75%\n• Kepatuhan regulasi tercapai sepenuhnya\n\nTransformasi ini memungkinkan peningkatan skala produksi dengan kualitas yang konsisten.",
+          "image": "https://images.unsplash.com/photo-1579165466741-7f35a4755657?w=800&h=600&fit=crop",
+          "date": "2025-12-20",
+          "author": "David Kim",
+          "category": "Studi Kasus"
+        },
+        {
+          "id": "5",
+          "slug": "strategic-partnership-announcement",
+          "title": "Kemitraan Strategis Memperluas Jangkauan Global",
+          "excerpt": "Kami mengumumkan kemitraan strategis untuk memperluas kehadiran global dan menjangkau pasar baru.",
+          "content": "Kemitraan ini memperluas kehadiran kami di Asia Tenggara, Timur Tengah, Eropa Timur, dan Amerika Latin.\n\nPelanggan akan mendapatkan dukungan lokal yang lebih cepat dan pelatihan teknis komprehensif.\n\nKami menantikan kemitraan jangka panjang yang saling menguntungkan.",
+          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "date": "2025-12-15",
+          "author": "Jennifer Williams",
+          "category": "Berita Perusahaan"
+        },
+        {
+          "id": "6",
+          "slug": "robotics-advancements-2026",
+          "title": "Masa Depan Robotika dalam Manufaktur: 2026 dan Seterusnya",
+          "excerpt": "Menjelajahi kemajuan terbaru teknologi robotika dan dampaknya pada proses manufaktur.",
+          "content": "Robot kolaboratif, AI, soft robotics, dan robot mobile otonom akan menjadi pilar utama manufaktur masa depan.\n\nTeknologi ini meningkatkan efisiensi, keselamatan, dan fleksibilitas produksi.\n\nKami berkomitmen menghadirkan solusi robotika terbaik bagi industri.",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop",
+          "date": "2025-12-10",
+          "author": "Robert Martinez",
+          "category": "Teknologi"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Berlangganan Newsletter Kami",
+      "subtitle": "Dapatkan berita dan wawasan terbaru langsung ke email Anda.",
+      "input": "Masukkan email Anda",
+      "btn": "Berlangganan"
+    },
+    "ctaDetail": {
+      "title": "Siap Mengoptimalkan Operasional Anda?",
+      "subtitle": "Hubungi kami untuk mengetahui bagaimana solusi kami dapat membantu bisnis Anda mencapai keunggulan operasional.",
+      "btn": "Hubungi Kami"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Hubungi Kami",
+      "subtitle": "Punya pertanyaan atau membutuhkan bantuan? Kami siap membantu Anda meraih kesuksesan."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "contact": "Hubungi Kami"
+    },
+    "form": {
+      "title": "Kirim Pesan kepada Kami",
+      "fName": "Nama Depan",
+      "lName": "Nama Belakang",
+      "email": "Alamat Email",
+      "phone": "Nomor Telepon",
+      "company": "Perusahaan",
+      "subject": {
+        "title": "Subjek",
+        "option": {
+          "placeholder": "Pilih topik",
+          "general": "Pertanyaan Umum",
+          "products": "Informasi Produk",
+          "quote": "Permintaan Penawaran",
+          "support": "Bantuan Teknis",
+          "partnership": "Peluang Kemitraan",
+          "other": "Lainnya"
+        }
+      },
+      "message": "Pesan",
+      "cta": "Kirim Pesan",
+      "placeholderFName": "John",
+      "placeholderLName": "Doe",
+      "placeholderEmail": "john@example.com",
+      "placeholderPhone": "+62 812 3456 7890",
+      "placeholderCompany": "Nama Perusahaan Anda",
+      "placeholderMessage": "Ceritakan kepada kami tentang proyek atau pertanyaan Anda..."
+    },
+    "info": {
+      "title": "Hubungi Kami",
+      "desc": "Tim kami siap membantu Anda menemukan solusi terbaik sesuai kebutuhan bisnis Anda. Silakan hubungi kami melalui salah satu saluran berikut.",
+      "address": {
+        "label": "Address",
+        "street": "123 Business Avenue, Suite 100",
+        "city": "San Francisco, CA 94105"
+      },
+      "phone": {
+        "label": "Telepon",
+        "value": "+62 812 3456 7890",
+        "time": "Senin - Jumat, 09.00 - 18.00"
+      },
+      "email": {
+        "label": "Email",
+        "email1": "info@pakarkimiautama.com",
+        "email2": "support@pakarkimiautama.com"
+      },
+      "business": {
+        "label": "Jam Operasional",
+        "weekday": "Senin - Jumat",
+        "weekdayTime": "09.00 - 18.00",
+        "weekend": "Sabtu",
+        "weekendTime": "10.00 - 16.00",
+        "closeday": "Minggu",
+        "time": "Tutup"
+      }
+    },
+    "cta": {
+      "title": "Siap Memulai?",
+      "subtitle": "Jadwalkan konsultasi gratis dengan tim ahli kami untuk mendiskusikan bagaimana kami dapat membantu mentransformasi operasional bisnis Anda.",
+      "btn": "Hubungi Sekarang"
     }
   }
 }

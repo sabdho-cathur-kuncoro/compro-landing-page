@@ -5,9 +5,11 @@ import Link from "next/link";
 import { Search, User, Menu, X } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   const t = useTranslations("navbar");
 
@@ -18,14 +20,6 @@ export default function Navbar() {
     { label: t("news"), href: "/news" },
     { label: t("contact"), href: "/contact" },
   ];
-
-  // const menuItems = [
-  //   { label: "Products", href: "/products" },
-  //   { label: "Industry", href: "/industry" },
-  //   { label: "About Us", href: "/about" },
-  //   { label: "News", href: "/news" },
-  //   { label: "Contact Us", href: "/contact" },
-  // ];
 
   return (
     <>
@@ -53,19 +47,30 @@ export default function Navbar() {
 
           {/* CENTER - DESKTOP MENU */}
           <nav className="hidden md:flex items-center gap-12 text-[15px] font-medium">
-            {menuItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="
-                  text-primary
-                  transition-colors duration-200
-                  hover:text-primary-hover
-                "
-              >
-                {item.label}
-              </Link>
-            ))}
+            {menuItems.map((item) => {
+              const cleanPath = pathname.replace(/^\/(en|id)/, "");
+
+              const isActive =
+                cleanPath === item.href ||
+                cleanPath.startsWith(item.href + "/");
+              console.log({ pathname });
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`
+                    relative inline-block transition-colors duration-200
+                    ${
+                      isActive
+                        ? "text-primary font-semibold after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-2 after:w-6 after:h-0.5 after:bg-primary"
+                        : "text-primary hover:text-primary-hover"
+                    }
+                  `}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
           </nav>
 
           {/* RIGHT - ICONS & HAMBURGER */}

@@ -68,10 +68,10 @@ export default function ProductsPage() {
                   fill
                   priority={index === 0}
                   className="
-              object-cover
-              transition-transform duration-700
-              group-hover:scale-110
-            "
+                    object-cover
+                    transition-transform duration-700
+                    group-hover:scale-110
+                  "
                 />
               </div>
 

@@ -1,13 +1,17 @@
+"use client";
+
 import Link from "next/link";
-import { MapPin, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 import {
   FaFacebookF,
   FaLinkedinIn,
   FaWhatsapp,
   FaXTwitter,
 } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("footer");
   return (
     <footer className="bg-bg border-t border-border">
       {/* MAIN FOOTER */}
@@ -15,7 +19,7 @@ export default function Footer() {
         {/* LEFT — FOLLOW & COPYRIGHT */}
         <div className="space-y-6">
           <div className="flex items-center gap-4 text-text-muted">
-            <span className="font-medium text-text">Follow us</span>
+            <span className="font-medium text-text">{t("label.follow")}</span>
 
             <div className="flex gap-4 text-primary">
               <a
@@ -45,22 +49,19 @@ export default function Footer() {
           </div>
 
           <p className="text-sm text-text-muted">
-            © {new Date().getFullYear()} PT Pakar Kimia Utama Chemicals. All
-            rights reserved.
+            © 2026 PT Pakar Kimia Utama Chemicals. All rights reserved.
           </p>
         </div>
 
         {/* CENTER — ADDRESS */}
         <div>
           <h4 className="font-semibold text-text mb-4 uppercase tracking-wide">
-            Address
+            {t("label.address")}
           </h4>
 
           <p className="text-text-muted leading-relaxed">
-            Graha Matapel <br />
-            Jl. Arjuna Utara No. 46 <br />
-            Duri Kepa – Kebon Jeruk <br />
-            Jakarta 11510 <br />
+            Jalan Raya Legok Nomor 7 B <br />
+            Tangerang Regency <br />
             Indonesia
           </p>
         </div>
@@ -68,7 +69,7 @@ export default function Footer() {
         {/* RIGHT — CONTACT */}
         <div>
           <h4 className="font-semibold text-text mb-4 uppercase tracking-wide">
-            Contact
+            {t("label.contact")}
           </h4>
 
           <ul className="space-y-3 text-text-muted">

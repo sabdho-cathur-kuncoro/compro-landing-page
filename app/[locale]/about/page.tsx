@@ -1,35 +1,57 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about TechCorp, our mission, vision, and journey in providing industrial automation solutions since 2010.",
+  description:
+    "Learn about PT Pakar Kimia Utama, our mission, vision, and journey in providing industrial automation solutions since 2010.",
 };
 
-const milestones = [
-  { year: "2010", title: "Company Founded", description: "TechCorp established with a vision to revolutionize industrial automation" },
-  { year: "2013", title: "First Major Breakthrough", description: "Launched our flagship automation system for manufacturing" },
-  { year: "2016", title: "Global Expansion", description: "Opened offices in Europe and Asia Pacific regions" },
-  { year: "2019", title: "Innovation Award", description: "Received recognition for breakthrough robotics integration" },
-  { year: "2022", title: "Smart Manufacturing Launch", description: "Introduced AI-powered smart manufacturing solutions" },
-  { year: "2026", title: "Industry Leader", description: "Became leading provider serving 500+ clients worldwide" },
-];
+interface Props {
+  params: Promise<{
+    slug: string;
+    locale: string;
+  }>;
+}
 
-export default function AboutPage() {
+export default async function AboutPage({ params }: Props) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "about" });
+  const milestones = t.raw("timeline.milestones") as {
+    year: string;
+    title: string;
+    description: string;
+  }[];
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              About TechCorp
-            </h1>
-            <p className="text-xl text-blue-100">
-              Empowering businesses with cutting-edge industrial automation and manufacturing solutions since 2010.
-            </p>
+      {/* ================= FULL HEIGHT HERO ================= */}
+      <section className="relative h-screen flex items-center justify-center bg-black">
+        <Image
+          src="/hero-bg.jpg"
+          alt="Products background"
+          fill
+          priority
+          className="object-cover opacity-70"
+        />
+
+        <div className="relative text-center text-white px-6">
+          {/* Breadcrumb */}
+          <div className="text-sm mb-6 opacity-80">
+            {t("breadcrumb.home")} /{" "}
+            <span className="font-medium">{t("breadcrumb.about")}</span>
           </div>
+
+          {/* Title */}
+          <h1 className="text-5xl md:text-6xl font-semibold mb-6">
+            {t("hero.title")}
+          </h1>
+
+          {/* Subtitle */}
+          <p className="max-w-2xl mx-auto text-lg md:text-xl opacity-90">
+            {t("hero.subtitle")}
+          </p>
         </div>
       </section>
 
@@ -39,30 +61,38 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                Who We Are
+                {t("body.title")}
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                TechCorp is a leading provider of industrial automation and manufacturing solutions. Founded in 2010, we have been at the forefront of technological innovation, helping businesses across various industries achieve operational excellence.
+                {t("body.desc1")}
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Our team of expert engineers and industry specialists work tirelessly to develop solutions that drive efficiency, reduce costs, and enhance productivity for our clients worldwide.
+                {t("body.desc2")}
               </p>
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="text-center p-6 bg-blue-50 rounded-lg">
-                  <div className="text-4xl font-bold text-blue-900 mb-2">500+</div>
-                  <div className="text-gray-600">Clients Worldwide</div>
+                  <div className="text-4xl font-bold text-blue-900 mb-2">
+                    500+
+                  </div>
+                  <div className="text-gray-600">{t("body.client")}</div>
                 </div>
                 <div className="text-center p-6 bg-blue-50 rounded-lg">
-                  <div className="text-4xl font-bold text-blue-900 mb-2">15+</div>
-                  <div className="text-gray-600">Years Experience</div>
+                  <div className="text-4xl font-bold text-blue-900 mb-2">
+                    15+
+                  </div>
+                  <div className="text-gray-600">{t("body.years")}</div>
                 </div>
                 <div className="text-center p-6 bg-blue-50 rounded-lg">
-                  <div className="text-4xl font-bold text-blue-900 mb-2">50+</div>
-                  <div className="text-gray-600">Countries Served</div>
+                  <div className="text-4xl font-bold text-blue-900 mb-2">
+                    50+
+                  </div>
+                  <div className="text-gray-600">{t("body.city")}</div>
                 </div>
                 <div className="text-center p-6 bg-blue-50 rounded-lg">
-                  <div className="text-4xl font-bold text-blue-900 mb-2">200+</div>
-                  <div className="text-gray-600">Expert Engineers</div>
+                  <div className="text-4xl font-bold text-blue-900 mb-2">
+                    200+
+                  </div>
+                  <div className="text-gray-600">{t("body.engineers")}</div>
                 </div>
               </div>
             </div>
@@ -84,7 +114,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="text-blue-900 mb-4">
+              <div className="text-primary mb-4">
                 <svg
                   className="h-12 w-12"
                   fill="none"
@@ -106,14 +136,14 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Our Vision
+                {t("vision.title")}
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed">
-                To be the global leader in industrial automation and smart manufacturing solutions, empowering businesses of all sizes to achieve unprecedented efficiency, quality, and innovation in their operations.
+                {t("vision.desc")}
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="text-blue-900 mb-4">
+              <div className="text-primary mb-4">
                 <svg
                   className="h-12 w-12"
                   fill="none"
@@ -129,10 +159,10 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Our Mission
+                {t("mision.title")}
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed">
-                To deliver cutting-edge, reliable, and scalable automation solutions that transform manufacturing processes, reduce environmental impact, and create sustainable value for our clients and stakeholders.
+                {t("mision.desc")}
               </p>
             </div>
           </div>
@@ -144,10 +174,10 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Journey
+              {t("timeline.title")}
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              A timeline of our major milestones and achievements over the years.
+              {t("timeline.desc")}
             </p>
           </div>
 
@@ -156,14 +186,18 @@ export default function AboutPage() {
               <div key={index} className="relative pl-8 pb-12 last:pb-0">
                 {/* Timeline Line */}
                 <div className="absolute left-0 top-0 h-full w-0.5 bg-blue-200"></div>
-                
+
                 {/* Timeline Dot */}
-                <div className="absolute left-0 top-0 -translate-x-1/2 w-4 h-4 bg-blue-900 rounded-full border-4 border-blue-100"></div>
+                <div className="absolute left-0 top-0 -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-blue-100"></div>
 
                 {/* Content */}
                 <div className="bg-white rounded-lg shadow-md p-6 ml-6">
-                  <div className="text-blue-900 font-bold text-sm mb-2">{milestone.year}</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{milestone.title}</h3>
+                  <div className="text-primary font-bold text-sm mb-2">
+                    {milestone.year}
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">
+                    {milestone.title}
+                  </h3>
                   <p className="text-gray-600">{milestone.description}</p>
                 </div>
               </div>
@@ -173,20 +207,18 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-900 text-white">
+      <section className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Join Our Team
+              {t("cta.title")}
             </h2>
-            <p className="text-xl text-blue-100 mb-8">
-              Be part of our mission to transform industries with innovative automation solutions.
-            </p>
+            <p className="text-xl text-blue-100 mb-8">{t("cta.subtitle")}</p>
             <Link
               href="/contact"
-              className="inline-flex items-center bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow-lg"
+              className="inline-flex items-center bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow-lg"
             >
-              Contact Us
+              {t("cta.btn")}
               <svg
                 className="ml-2 h-5 w-5"
                 fill="none"

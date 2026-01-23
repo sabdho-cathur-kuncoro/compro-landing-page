@@ -14,22 +14,30 @@
     {
       "tag1": "Pigment Preparations",
       "tag2": "Pigment Paste | Finely Dispersed",
-      "title": "Pigment pastes from PT Pakar Kimia Utama are classified into three main systems: Water-Based, Solvent-Based, and Solvent-Free solutions for advanced coating applications."
+      "title": "Pigment pastes from PT Pakar Kimia Utama are classified into three main systems: Water-Based, Solvent-Based, and Solvent-Free solutions for advanced coating applications.",
+      "slug": "/products/pigment",
+      "cta": "Read More"
     },
     {
       "tag1": "Silicone",
       "tag2": "High Performance Polymer",
-      "title": "Advanced silicone technologies engineered to deliver durability, flexibility, and superior performance for demanding industrial applications."
+      "title": "Advanced silicone technologies engineered to deliver durability, flexibility, and superior performance for demanding industrial applications.",
+      "slug": "/products/silicone",
+      "cta": "Read More"
     },
     {
       "tag1": "Biocides",
       "tag2": "Protection System",
-      "title": "Highly effective preservation systems designed to protect materials against bacteria, fungi, and microbial contamination."
+      "title": "Highly effective preservation systems designed to protect materials against bacteria, fungi, and microbial contamination.",
+      "slug": "/products/biocides",
+      "cta": "Read More"
     },
     {
       "tag1": "Additives",
       "tag2": "Functional Enhancers",
-      "title": "Specialty additives formulated to enhance processing efficiency, stability, and performance across a wide range of industries."
+      "title": "Specialty additives formulated to enhance processing efficiency, stability, and performance across a wide range of industries.",
+      "slug": "/products/additives",
+      "cta": "Read More"
     }
   ],
   "latestNews": {
@@ -54,12 +62,19 @@
     ]
   },
   "footer": {
-    "products": "Products",
-    "industry": "Industry",
-    "company": "Company",
-    "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "label": {
+      "follow": "Follow Us",
+      "address": "Address",
+      "contact": "Contact"
+    },
+    "nav": {
+      "products": "Products",
+      "industry": "Industry",
+      "company": "Company",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
   },
   "products": {
     "hero": {
@@ -133,6 +148,291 @@
       "performance": "High performance in industrial environments",
       "compatibility": "Compatible with multiple resin systems",
       "stability": "Excellent storage and processing stability"
+    }
+  },
+  "industries": {
+    "hero": {
+      "title": "Industries We Serve",
+      "subtitle": "Tailored automation and manufacturing solutions for diverse industrial sectors."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "industries": "Industries"
+    },
+    "cta": {
+      "title": "Don't see your industry?",
+      "subtitle": "We work with businesses across all sectors. Contact us to discuss how to transform your operations.",
+      "btn": "Contact Us"
+    },
+    "ctaDetail": {
+      "title": "Ready to Optimize Your Operations?",
+      "subtitle": "Contact us to learn how our solutions can help your business achieve operational excellence.",
+      "btn": "Contact Us"
+    }
+  },
+  "industryDetail": {
+    "items": {
+      "automotive": {
+        "title": "Automotive",
+        "description": "Comprehensive solutions for the automotive manufacturing sector, from assembly line automation to quality control systems. Our technologies help automotive manufacturers increase efficiency, reduce defects, and meet the highest industry standards."
+      },
+
+      "food-beverage": {
+        "title": "Food & Beverage",
+        "description": "Specialized automation and quality control solutions for food and beverage production. Our systems ensure compliance with safety regulations while maximizing production efficiency and product consistency."
+      },
+
+      "pharmaceutical": {
+        "title": "Pharmaceutical",
+        "description": "Precision automation solutions for pharmaceutical manufacturing with strict adherence to regulatory requirements. Our systems ensure product quality, traceability, and compliance with FDA and other regulatory standards."
+      },
+
+      "electronics": {
+        "title": "Electronics",
+        "description": "Advanced manufacturing solutions for the electronics industry, featuring high-precision assembly, automated testing, and quality inspection systems. Enable rapid production of complex electronic components."
+      },
+
+      "chemical": {
+        "title": "Chemical",
+        "description": "Robust automation and monitoring solutions for chemical processing plants. Our systems ensure safe operations, precise control of chemical processes, and compliance with environmental regulations."
+      },
+
+      "textile": {
+        "title": "Textile",
+        "description": "Automation solutions for textile manufacturing, from yarn production to fabric finishing. Our systems optimize production workflows, reduce material waste, and improve product quality."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "PT Pakar Kimia Utama",
+      "subtitle": "Empowering businesses with cutting-edge industrial automation and manufacturing solutions since 2010."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "about": "About Us"
+    },
+    "body": {
+      "title": "Who We Are",
+      "desc1": "PT Pakar Kimia Utama is a leading provider of industrial automation and manufacturing solutions. Founded in 2010, we have been at the forefront of technological innovation, helping businesses across various industries achieve operational excellence.",
+      "desc2": "Our team of expert engineers and industry specialists work tirelessly to develop solutions that drive efficiency, reduce costs, and enhance productivity for our clients worldwide.",
+      "client": "Clients",
+      "years": "Years Experience",
+      "city": "Cities Served",
+      "engineers": "Expert Engineers"
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To be the global leader in industrial automation and smart manufacturing solutions, empowering businesses of all sizes to achieve unprecedented efficiency, quality, and innovation in their operations."
+    },
+    "mision": {
+      "title": "Our Mision",
+      "desc": "To deliver cutting-edge, reliable, and scalable automation solutions that transform manufacturing processes, reduce environmental impact, and create sustainable value for our clients and stakeholders."
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "desc": "A timeline of our major milestones and achievements over the years.",
+      "milestones": [
+        {
+          "year": "2010",
+          "title": "Company Founded",
+          "description": "PT Pakar Kimia Utama established with a vision to revolutionize industrial automation"
+        },
+        {
+          "year": "2013",
+          "title": "First Major Breakthrough",
+          "description": "Launched our flagship automation system for manufacturing"
+        },
+        {
+          "year": "2016",
+          "title": "Global Expansion",
+          "description": "Opened offices in Europe and Asia Pacific regions"
+        },
+        {
+          "year": "2019",
+          "title": "Innovation Award",
+          "description": "Received recognition for breakthrough robotics integration"
+        },
+        {
+          "year": "2022",
+          "title": "Smart Manufacturing Launch",
+          "description": "Introduced AI-powered smart manufacturing solutions"
+        },
+        {
+          "year": "2026",
+          "title": "Industry Leader",
+          "description": "Became leading provider serving 500+ clients worldwide"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Join Our Team",
+      "subtitle": "Be part of our mission to transform industries with innovative automation solutions.",
+      "btn": "Contact Us"
+    }
+  },
+  "news": {
+    "hero": {
+      "title": "News & Insights",
+      "subtitle": "Stay updated with the latest trends, innovations, and industry insights."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "news": "News"
+    },
+    "articles": {
+      "title": "Latest Articles",
+      "cta": "Read More",
+      "list": [
+        {
+          "id": "1",
+          "slug": "new-automation-system-launch",
+          "title": "Launching Our Next-Generation Industrial Automation System",
+          "excerpt": "We are thrilled to announce the release of our latest industrial automation system, featuring AI-powered predictive maintenance and enhanced IoT capabilities.",
+          "content": "We are thrilled to announce the release of our latest industrial automation system, featuring AI-powered predictive maintenance and enhanced IoT capabilities. This groundbreaking solution represents a significant leap forward in manufacturing technology.\n\nThe new system integrates advanced machine learning algorithms that analyze equipment performance in real-time, predicting potential failures before they occur. This proactive approach helps manufacturers reduce downtime by up to 40% and extend equipment lifespan.\n\nKey features of the new system include:\n\n• Real-time monitoring with cloud-based analytics dashboard\n• Predictive maintenance alerts powered by AI\n• Seamless integration with existing SCADA systems\n• Enhanced IoT sensor connectivity for comprehensive data collection\n• Customizable workflow automation for specific production needs\n\nEarly adopters of the system have reported significant improvements in operational efficiency and cost reduction. The system is particularly beneficial for manufacturers with complex production lines and high-value equipment.\n\nOur team has worked closely with industry partners to ensure the system meets the highest standards of reliability and performance. We are confident that this new solution will help manufacturers stay competitive in an increasingly automated industry.",
+          "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "date": "2026-01-15",
+          "author": "Sarah Johnson",
+          "category": "Product Launch"
+        },
+        {
+          "id": "2",
+          "slug": "sustainability-initiative",
+          "title": "Advancing Sustainability in Manufacturing Through Smart Technology",
+          "excerpt": "Learn how our smart manufacturing solutions are helping companies reduce their environmental footprint while improving operational efficiency.",
+          "content": "Sustainability has become a critical priority for manufacturers worldwide, and smart technology is playing a pivotal role in achieving environmental goals. Our latest solutions are designed to help companies reduce their environmental footprint while simultaneously improving operational efficiency.\n\nEnergy consumption monitoring is at the heart of our sustainability approach. By implementing our Energy Monitoring System, manufacturers can:\n\n• Track real-time energy consumption across all equipment\n• Identify inefficiencies and areas for improvement\n• Receive alerts for unusual energy usage patterns\n• Generate detailed reports for compliance and analysis\n\nEarly results from our clients have been impressive. One automotive manufacturer reduced their energy consumption by 25% within six months of implementing our system, resulting in significant cost savings and a reduced carbon footprint.\n\nBeyond energy efficiency, our solutions also contribute to sustainability through:\n\n• Reduced material waste through precision quality control\n• Extended equipment lifespan through predictive maintenance\n• Optimized logistics and inventory management\n• Paperless operations through digital documentation\n\nWe believe that sustainability and profitability are not mutually exclusive goals. Our technology demonstrates that environmental responsibility can drive business success, creating a win-win scenario for manufacturers and the planet.",
+          "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=600&fit=crop",
+          "date": "2026-01-10",
+          "author": "Michael Chen",
+          "category": "Sustainability"
+        },
+        {
+          "id": "3",
+          "slug": "industry-4-0-conference",
+          "title": "Industry 4.0 Conference: Key Takeaways and Future Trends",
+          "excerpt": "Our team shares insights from the recent Industry 4.0 conference, highlighting emerging trends and the future of smart manufacturing.",
+          "content": "The recent Industry 4.0 Conference brought together manufacturing leaders, technology innovators, and industry experts to discuss the future of smart manufacturing. Our team was present at the event, and we're excited to share the key takeaways and emerging trends that will shape the industry in the coming years.\n\nArtificial Intelligence Takes Center Stage\n\nAI was undoubtedly the star of the conference, with numerous presentations focusing on its transformative potential in manufacturing. From predictive maintenance to quality control, AI is becoming increasingly integrated into every aspect of production. The consensus among experts is that AI adoption will accelerate significantly in the next 3-5 years.\n\nDigital Twin Technology Gains Momentum\n\nDigital twin technology—creating virtual replicas of physical systems—is moving from experimental to mainstream adoption. Manufacturers are using digital twins for simulation, testing, and optimization, reducing development time and costs while improving product quality.\n\nEdge Computing Enables Real-Time Processing\n\nWhile cloud computing remains essential, edge computing is gaining importance for applications requiring real-time processing and minimal latency. This trend is particularly relevant for quality control systems and safety-critical applications.\n\nSustainability as a Competitive Advantage\n\nEnvironmental sustainability is no longer just about compliance—it's becoming a competitive differentiator. Manufacturers that can demonstrate sustainable practices are gaining market share and attracting environmentally conscious customers.\n\nWorkforce Transformation\n\nThe conference highlighted the critical importance of workforce development in Industry 4.0. As automation increases, the focus shifts to training employees to work alongside intelligent systems and handle more complex, value-added tasks.\n\nOur team returned from the conference energized and validated in our vision. The trends we observed align perfectly with our product roadmap, and we're committed to staying at the forefront of Industry 4.0 innovation.",
+          "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "date": "2026-01-05",
+          "author": "Emily Rodriguez",
+          "category": "Industry Insights"
+        },
+        {
+          "id": "4",
+          "slug": "success-story-pharmaceutical",
+          "title": "Success Story: Transforming Pharmaceutical Manufacturing",
+          "excerpt": "Discover how a leading pharmaceutical manufacturer achieved 99.9% product quality with our automated quality control system.",
+          "content": "A leading pharmaceutical manufacturer recently partnered with us to transform their quality control processes, achieving remarkable results that demonstrate the power of automation in highly regulated industries.\n\nThe Challenge\n\nThe manufacturer was facing several critical challenges:\n\n• Manual inspection processes were time-consuming and error-prone\n• Regulatory compliance required 100% traceability\n• Production volumes were increasing, putting pressure on existing systems\n• Customer expectations for product quality were continually rising\n\nThe Solution\n\nWe implemented our comprehensive Quality Control System, featuring:\n\n• High-resolution vision inspection for defect detection\n• Automated dimensional measurement with sub-micron accuracy\n• Statistical process control for real-time quality monitoring\n• Complete product traceability from raw materials to finished goods\n• Integration with existing production lines and ERP systems\n\nThe Results\n\nThe implementation delivered exceptional outcomes:\n\n• Product quality increased from 98.5% to 99.9%\n• Inspection time reduced by 60%\n• False rejection rate decreased by 75%\n• Complete regulatory compliance achieved\n• ROI realized within 18 months\n\nBeyond the quantitative results, the transformation enabled the manufacturer to scale production confidently, knowing that quality would remain consistently high. The automated system also freed up skilled technicians to focus on process improvement rather than routine inspection tasks.\n\nThis success story exemplifies how targeted automation can solve specific industry challenges while delivering significant business benefits. The manufacturer is now exploring additional automation opportunities to further enhance their operations.",
+          "image": "https://images.unsplash.com/photo-1579165466741-7f35a4755657?w=800&h=600&fit=crop",
+          "date": "2025-12-20",
+          "author": "David Kim",
+          "category": "Case Study"
+        },
+        {
+          "id": "5",
+          "slug": "strategic-partnership-announcement",
+          "title": "Strategic Partnership Expands Global Reach",
+          "excerpt": "We are excited to announce a strategic partnership that will enhance our global presence and bring our solutions to new markets.",
+          "content": "We are thrilled to announce a strategic partnership with a leading technology distribution company that will significantly expand our global reach and bring our innovative manufacturing solutions to new markets around the world.\n\nAbout the Partnership\n\nThis partnership leverages the strengths of both organizations:\n\n• Our cutting-edge automation and manufacturing solutions\n• Our partner's extensive global distribution network and market expertise\n• Shared commitment to customer success and technical excellence\n\nExpanded Geographic Coverage\n\nThe partnership will initially focus on expanding our presence in:\n\n• Southeast Asia\n• Middle East\n• Eastern Europe\n• Latin America\n\nThese regions represent significant growth opportunities for industrial automation, with many manufacturers looking to modernize their operations and adopt Industry 4.0 technologies.\n\nEnhanced Customer Support\n\nCustomers in these regions will benefit from:\n\n• Local sales and support teams\n• Faster response times\n• Regional technical expertise\n• Compliance with local regulations and standards\n\nComprehensive training programs will ensure that our partners have the technical knowledge to provide excellent customer service and support.\n\nStrategic Alignment\n\nThis partnership aligns perfectly with our growth strategy and mission to make advanced manufacturing technology accessible to companies worldwide. By combining our technological innovation with our partner's market expertise and distribution capabilities, we can accelerate market adoption and help more manufacturers achieve their automation goals.\n\nWe look forward to a long and successful partnership that benefits both organizations and, most importantly, our customers.",
+          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "date": "2025-12-15",
+          "author": "Jennifer Williams",
+          "category": "Company News"
+        },
+        {
+          "id": "6",
+          "slug": "robotics-advancements-2026",
+          "title": "The Future of Robotics in Manufacturing: 2026 and Beyond",
+          "excerpt": "Exploring the latest advancements in robotics technology and their transformative impact on manufacturing processes.",
+          "content": "Robotics technology is evolving at an unprecedented pace, and 2026 promises to be a landmark year for robotics in manufacturing. Let's explore the latest advancements and their potential impact on the industry.\n\nCobots: Collaboration, Not Replacement\n\nCollaborative robots (cobots) continue to gain traction, designed to work alongside human workers rather than replacing them. The latest generation of cobots features:\n\n• Enhanced safety sensors that allow closer human-robot interaction\n• More intuitive programming interfaces that reduce setup time\n• Increased payload capacity while maintaining precision\n• Lower costs making them accessible to smaller manufacturers\n\nAI-Enhanced Robotics\n\nArtificial intelligence is making robots smarter and more adaptive:\n\n• Computer vision enables robots to handle variable objects and environments\n• Machine learning allows robots to improve performance over time\n• Natural language processing enables voice-controlled robot operation\n• Predictive maintenance reduces downtime and extends equipment life\n\nSoft Robotics and Gripping Technology\n\nAdvancements in soft robotics are enabling robots to handle delicate items:\n\n• Adaptive grippers can handle items of varying shapes and materials\n• Tactile sensors provide feedback for precise manipulation\n• Applications in food, pharmaceutical, and electronics assembly\n• Reduced risk of product damage\n\nAutonomous Mobile Robots (AMRs)\n\nAMRs are transforming material handling and logistics:\n\n• Improved navigation using advanced SLAM technology\n• Fleet optimization algorithms coordinate multiple robots efficiently\n• Integration with warehouse management systems\n• Real-time adaptability to changing environments\n\nIndustry-Specific Solutions\n\nRobotics manufacturers are increasingly developing solutions tailored to specific industries:\n\n• Pharmaceutical: Aseptic environments, precision handling\n• Food & Beverage: Hygienic design, wash-down capability\n• Electronics: Micro-precision assembly, static control\n• Automotive: High-speed operation, large payload capacity\n\nLooking Ahead\n\nThe future of robotics in manufacturing is bright, with trends pointing toward greater accessibility, intelligence, and human-robot collaboration. As costs continue to decrease and capabilities increase, we expect to see robotics adoption accelerate across all manufacturing sectors.\n\nOur commitment remains focused on developing and implementing robotics solutions that help manufacturers improve efficiency, quality, and competitiveness while creating safer and more engaging workplaces for their employees.",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop",
+          "date": "2025-12-10",
+          "author": "Robert Martinez",
+          "category": "Technology"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Subscribe to Our Newsletter",
+      "subtitle": "Get the latest news and insights delivered straight to your inbox.",
+      "input": "Enter your email",
+      "btn": "Subscribe"
+    },
+    "ctaDetail": {
+      "title": "Ready to Optimize Your Operations?",
+      "subtitle": "Contact us to learn how our solutions can help your business achieve operational excellence.",
+      "btn": "Contact Us"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Have questions or need assistance? We're here to help you succeed."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "contact": "Contact Us"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "fName": "First Name",
+      "lName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company",
+      "subject": {
+        "title": "Subject",
+        "option": {
+          "placeholder": "Select a subject",
+          "general": "General Inquiry",
+          "products": "Product Information",
+          "quote": "Request a Quote",
+          "support": "Technical Support",
+          "partnership": "Partnership Opportunities",
+          "other": "Other"
+        }
+      },
+      "message": "Message",
+      "cta": "Send Message",
+      "placeholderFName": "John",
+      "placeholderLName": "Doe",
+      "placeholderEmail": "john@example.com",
+      "placeholderPhone": "+62 (21) 123-4567",
+      "placeholderCompany": "Your Company Name",
+      "placeholderMessage": "Tell us about your project or inquiry..."
+    },
+    "info": {
+      "title": "Get in Touch",
+      "desc": "Our team is ready to help you find the perfect solution for your business needs. Reach out to us through any of the following channels.",
+      "address": {
+        "label": "Address",
+        "street": "123 Business Avenue, Suite 100",
+        "city": "San Francisco, CA 94105"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+62 812 3456 7890",
+        "time": "Mon - Fri, 9:00 AM - 6:00 PM"
+      },
+      "email": {
+        "label": "Email",
+        "email1": "info@pakarkimiautama.com",
+        "email2": "support@pakarkimiautama.com"
+      },
+      "business": {
+        "label": "Business Hours",
+        "weekday": "Monday - Friday",
+        "weekdayTime": "9:00 AM - 6:00 PM",
+        "weekend": "Saturday",
+        "weekendTime": "10:00 AM - 4:00 PM",
+        "closeday": "Sunday",
+        "time": "Closed"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Schedule a free consultation with our experts to discuss how we can help transform your business operations.",
+      "btn": "Call Now"
     }
   }
 }
