@@ -17,7 +17,7 @@ export default function Navbar() {
     { label: t("products"), href: "/products" },
     { label: t("industry"), href: "/industry" },
     { label: t("about"), href: "/about" },
-    { label: t("news"), href: "/news" },
+    // { label: t("news"), href: "/news" },
     { label: t("contact"), href: "/contact" },
   ];
 
@@ -76,7 +76,7 @@ export default function Navbar() {
           {/* RIGHT - ICONS & HAMBURGER */}
           <div className="flex items-center gap-6">
             {/* Desktop icons */}
-            <div className="hidden md:flex items-center gap-6">
+            {/* <div className="hidden md:flex items-center gap-6">
               <button
                 aria-label="Search"
                 className="text-primary hover:text-primary-hover transition-colors"
@@ -90,7 +90,7 @@ export default function Navbar() {
               >
                 <User size={20} />
               </button>
-            </div>
+            </div> */}
 
             {/* Mobile hamburger */}
             <button
@@ -150,14 +150,14 @@ export default function Navbar() {
         </nav>
 
         {/* Drawer Footer Icons */}
-        <div className="mt-auto px-6 py-6 border-t border-border flex gap-6">
+        {/* <div className="mt-auto px-6 py-6 border-t border-border flex gap-6">
           <button className="text-primary hover:text-primary-hover transition-colors">
             <Search size={20} />
           </button>
           <button className="text-primary hover:text-primary-hover transition-colors">
             <User size={20} />
           </button>
-        </div>
+        </div> */}
       </aside>
     </>
   );

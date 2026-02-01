@@ -334,7 +334,7 @@ export default async function ContactPage({ params }: Props) {
       </section>
 
       {/* Map Section */}
-      <section className="py-0">
+      {/* <section className="py-0">
         <div className="w-full h-96 bg-gray-200">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0977845559227!2d-122.41941558468172!3d37.77492977975866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1645678901234!5m2!1sen!2sus"
@@ -346,10 +346,10 @@ export default async function ContactPage({ params }: Props) {
             title="PT Pakar Kimia Utama Location"
           ></iframe>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary text-white">
+      {/* <section className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -379,7 +379,7 @@ export default async function ContactPage({ params }: Props) {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

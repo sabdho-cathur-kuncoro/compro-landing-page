@@ -13,7 +13,7 @@ export default async function Home() {
       <HeroParallaxBands />
 
       {/* Latest News Section */}
-      <LatestNews />
+      {/* <LatestNews /> */}
     </>
   );
 }

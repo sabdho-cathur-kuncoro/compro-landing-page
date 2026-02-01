@@ -421,26 +421,26 @@
       "desc": "Our team is ready to help you find the perfect solution for your business needs. Reach out to us through any of the following channels.",
       "address": {
         "label": "Address",
-        "street": "123 Business Avenue, Suite 100",
-        "city": "San Francisco, CA 94105"
+        "street": "Jalan Raya Legok Nomor 7 B",
+        "city": "Tangerang Regency, Indonesia"
       },
       "phone": {
         "label": "Phone",
         "value": "+62 812 3456 7890",
-        "time": "Mon - Fri, 9:00 AM - 6:00 PM"
+        "time": "Mon - Fri, 8:00 AM - 5:00 PM"
       },
       "email": {
         "label": "Email",
-        "email1": "info@pakarkimiautama.com",
-        "email2": "support@pakarkimiautama.com"
+        "email1": "marketing1@pakar-ku.com",
+        "email2": ""
       },
       "business": {
         "label": "Business Hours",
         "weekday": "Monday - Friday",
-        "weekdayTime": "9:00 AM - 6:00 PM",
-        "weekend": "Saturday",
-        "weekendTime": "10:00 AM - 4:00 PM",
-        "closeday": "Sunday",
+        "weekdayTime": "8:00 AM - 5:00 PM",
+        "weekend": "",
+        "weekendTime": "",
+        "closeday": "Saturday - Sunday",
         "time": "Closed"
       }
     },

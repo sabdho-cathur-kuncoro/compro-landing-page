@@ -45,22 +45,17 @@ export default async function ProductsPage({
 
       {/* ================= CATEGORY GRID (2x2, FULL WIDTH TILES) ================= */}
       <ProductsGridWrapper>
-        <section className="relative w-full h-screen overflow-hidden">
-          <div className="grid grid-cols-2 grid-rows-2 w-full h-full">
+        <section className="relative w-full py-8 px-4 md:px-6">
+          <div className="grid grid-cols-2 gap-6">
             {productCategories.map((item, index) => (
               <Link
                 key={item.key}
                 href={item.slug}
-                className="group relative overflow-hidden"
+                className="group relative overflow-hidden rounded-xl aspect-video"
               >
                 {/* PARALLAX BACKGROUND */}
                 <div
-                  className="
-                  absolute left-0 right-0
-                  -top-[25%] h-[150%]
-                  parallax-item
-                  will-change-transform
-                "
+                  className="absolute left-0 right-0 -top-[25%] h-[150%] parallax-item will-change-transform"
                   data-speed={(index + 1) * 0.25}
                 >
                   <Image
@@ -68,11 +63,7 @@ export default async function ProductsPage({
                     alt={item.key}
                     fill
                     priority={index === 0}
-                    className="
-                    object-cover
-                    transition-transform duration-700
-                    group-hover:scale-110
-                  "
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </div>
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { Link } from "@/i18n/navigation";
-import { Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-8 py-12 grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
         {/* LEFT — FOLLOW & COPYRIGHT */}
         <div className="space-y-6">
-          <div className="flex items-center gap-4 text-text-muted">
+          {/* <div className="flex items-center gap-4 text-text-muted">
             <span className="font-medium text-text">{t("label.follow")}</span>
 
             <div className="flex gap-4 text-primary">
@@ -46,11 +46,11 @@ export default function Footer() {
                 <FaXTwitter size={16} />
               </a>
             </div>
-          </div>
+          </div> */}
 
-          <p className="text-sm text-text-muted">
+          {/* <p className="text-sm text-text-muted">
             © 2026 PT Pakar Kimia Utama Chemicals. All rights reserved.
-          </p>
+          </p> */}
         </div>
 
         {/* CENTER — ADDRESS */}
@@ -73,17 +73,21 @@ export default function Footer() {
           </h4>
 
           <ul className="space-y-3 text-text-muted">
-            <li className="flex items-center gap-3">
+            {/* <li className="flex items-center gap-3">
               <Phone size={16} className="text-primary" />
               <span>(62-21) 560 8848 / (62-21) 560 8884</span>
-            </li>
+            </li> */}
 
             <li className="flex items-center gap-3">
               <FaWhatsapp className="text-green-500" size={16} />
               <span>Jakarta (WhatsApp)</span>
             </li>
-
             <li className="flex items-center gap-3">
+              <Mail size={16} className="text-primary" />
+              <span>marketing1@pakar-ku.com</span>
+            </li>
+
+            {/* <li className="flex items-center gap-3">
               <FaWhatsapp className="text-green-500" size={16} />
               <span>Bandung (WhatsApp)</span>
             </li>
@@ -96,7 +100,7 @@ export default function Footer() {
             <li className="flex items-center gap-3">
               <FaWhatsapp className="text-green-500" size={16} />
               <span>Surabaya (WhatsApp)</span>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
@@ -105,7 +109,10 @@ export default function Footer() {
       <div className="border-t border-border">
         <div className="max-w-7xl mx-auto px-8 py-4 flex flex-col md:flex-row items-center justify-between text-sm text-text-muted">
           <div className="flex gap-6">
-            <Link
+            <p className="text-sm text-text-muted">
+              © 2026 PT Pakar Kimia Utama. All rights reserved.
+            </p>
+            {/* <Link
               href="/privacy"
               className="hover:text-primary-hover transition"
             >
@@ -113,7 +120,7 @@ export default function Footer() {
             </Link>
             <Link href="/terms" className="hover:text-primary-hover transition">
               Terms of Service
-            </Link>
+            </Link> */}
           </div>
 
           {/* LANGUAGE SWITCH (OPTIONAL – like screenshot) */}
