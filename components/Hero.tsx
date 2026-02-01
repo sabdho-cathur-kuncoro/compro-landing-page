@@ -37,7 +37,7 @@ export default function Hero() {
 
       {/* CENTER CONTENT */}
       <div className="relative flex flex-col min-h-[92vh] items-center justify-center text-center px-6">
-        <h1 className="max-w-3xl text-white font-semibold leading-tight text-4xl md:text-5xl lg:text-6xl drop-shadow-lg">
+        <h1 className="max-w-3xl text-white font-semibold leading-tight text-3xl md:text-4xl lg:text-5xl drop-shadow-lg">
           {t("headline")}
         </h1>
         {/* SUBTITLE */}

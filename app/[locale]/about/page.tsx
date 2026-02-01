@@ -6,7 +6,7 @@ import { Link } from "@/i18n/navigation";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about PT Pakar Kimia Utama, our mission, vision, and journey in providing industrial automation solutions since 2010.",
+    "PT Pakar Kimia Utama is a trusted supplier of polyurethane raw materials including polyols, isocyanates, additives, and foam solutions for furniture, bedding, and industrial applications.",
 };
 
 interface Props {

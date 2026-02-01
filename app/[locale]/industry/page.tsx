@@ -7,7 +7,7 @@ import { getTranslations } from "next-intl/server";
 export const metadata: Metadata = {
   title: "Industries",
   description:
-    "Discover how our solutions serve diverse industrial sectors from automotive to pharmaceuticals.",
+    "PT Pakar Kimia Utama is a trusted supplier of polyurethane raw materials including polyols, isocyanates, additives, and foam solutions for furniture, bedding, and industrial applications.",
 };
 
 type Props = {

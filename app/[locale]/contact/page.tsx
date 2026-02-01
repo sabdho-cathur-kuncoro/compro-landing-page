@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with PT Pakar Kimia Utama for inquiries, support, or to discuss how we can help transform your operations.",
+    "PT Pakar Kimia Utama is a trusted supplier of polyurethane raw materials including polyols, isocyanates, additives, and foam solutions for furniture, bedding, and industrial applications.",
 };
 
 const subjects = [

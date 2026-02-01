@@ -7,36 +7,43 @@
     "contact": "Contact Us"
   },
   "hero": {
-    "headline": "Innovating to Deliver Better Technology",
-    "subtitle": "Providing advanced chemical and polymer solutions for modern industries"
+    "headline": "Reliable Polyurethane Raw Materials for Modern Industries",
+    "subtitle": "Supplying polyols, isocyanates, additives, and foam solutions for furniture, bedding, and automotive applications"
   },
   "bands": [
     {
-      "tag1": "Pigment Preparations",
-      "tag2": "Pigment Paste | Finely Dispersed",
-      "title": "Pigment pastes from PT Pakar Kimia Utama are classified into three main systems: Water-Based, Solvent-Based, and Solvent-Free solutions for advanced coating applications.",
-      "slug": "/products/pigment",
+      "tag1": "Polyols",
+      "tag2": "The foundation of flexible polyurethane performance",
+      "title": "Polyols are the primary raw materials in polyurethane systems, responsible for defining flexibility, durability, and mechanical performance of the final foam.",
+      "slug": "/products/Polyols",
       "cta": "Read More"
     },
     {
-      "tag1": "Silicone",
-      "tag2": "High Performance Polymer",
-      "title": "Advanced silicone technologies engineered to deliver durability, flexibility, and superior performance for demanding industrial applications.",
-      "slug": "/products/silicone",
+      "tag1": "Isocyanates",
+      "tag2": "Building the structure of polyurethane",
+      "title": "Isocyanates are highly reactive components that react with polyols to form the polyurethane polymer structure.",
+      "slug": "/products/Isocyanates",
       "cta": "Read More"
     },
     {
-      "tag1": "Biocides",
-      "tag2": "Protection System",
-      "title": "Highly effective preservation systems designed to protect materials against bacteria, fungi, and microbial contamination.",
-      "slug": "/products/biocides",
+      "tag1": "Blowing Agents",
+      "tag2": "Shaping foam structure and density",
+      "title": "Blowing agents are used to create the cellular structure of polyurethane foam by generating gas during the reaction process.",
+      "slug": "/products/Blowing-Agents",
       "cta": "Read More"
     },
     {
-      "tag1": "Additives",
-      "tag2": "Functional Enhancers",
-      "title": "Specialty additives formulated to enhance processing efficiency, stability, and performance across a wide range of industries.",
-      "slug": "/products/additives",
+      "tag1": "PU Catalysts",
+      "tag2": "Precision control for polyurethane reactions",
+      "title": "PU catalysts are essential additives that control the reaction speed and balance between gelation and blowing during polyurethane foam production.",
+      "slug": "/products/PU-Catalysts",
+      "cta": "Read More"
+    },
+    {
+      "tag1": "Silicone Surfactants",
+      "tag2": "Stability for perfect foam cells",
+      "title": "Silicone surfactants act as cell stabilizers in polyurethane foam systems, helping to create uniform cell structures and prevent foam defects such as collapse or irregular pores.",
+      "slug": "/products/Silicone-Surfactants",
       "cta": "Read More"
     }
   ],
@@ -86,21 +93,25 @@
       "products": "Products"
     },
     "categories": {
-      "pigment": {
-        "title": "Pigment Preparations",
-        "desc": "High quality pigment pastes and dispersions"
+      "polyols": {
+        "title": "Polyols",
+        "desc": "Base materials for flexibility and mechanical strength in polyurethane foam"
       },
-      "silicone": {
-        "title": "Silicone",
-        "desc": "High performance polymer solutions"
+      "isocyanates": {
+        "title": "Isocyanates",
+        "desc": "Reactive components forming the polyurethane polymer structure"
       },
-      "biocides": {
-        "title": "Biocides",
-        "desc": "Advanced protection and preservation systems"
+      "blowing-agents": {
+        "title": "Blowing Agents",
+        "desc": "Control foam density and cell structure"
       },
-      "additives": {
-        "title": "Additives",
-        "desc": "Functional enhancers for better performance"
+      "pu-catalysts": {
+        "title": "PU Catalysts",
+        "desc": "Regulate reaction speed and process balance"
+      },
+      "silicone-surfactants": {
+        "title": "Silicone Surfactants",
+        "desc": "Stabilize foam cells for consistent foam quality"
       }
     },
     "cta": "Explore Products"
@@ -111,21 +122,25 @@
       "products": "Products"
     },
     "categories": {
-      "pigment": {
-        "title": "Pigment Preparations",
-        "subtitle": "High quality pigment pastes and dispersions for advanced coating applications"
+      "polyols": {
+        "title": "Polyols",
+        "subtitle": "Base materials for flexibility and mechanical strength in polyurethane foam"
       },
-      "silicone": {
-        "title": "Silicone",
-        "subtitle": "High performance polymer systems for industrial solutions"
+      "isocyanates": {
+        "title": "Isocyanates",
+        "subtitle": "Reactive components forming the polyurethane polymer structure"
       },
-      "biocides": {
-        "title": "Biocides",
-        "subtitle": "Advanced protection and preservation systems for industrial applications"
+      "blowing-agents": {
+        "title": "Blowing Agents",
+        "subtitle": "Control foam density and cell structure"
       },
-      "additives": {
-        "title": "Additives",
-        "subtitle": "Functional enhancers designed to improve processing efficiency and performance"
+      "pu-catalysts": {
+        "title": "PU Catalysts",
+        "subtitle": "Regulate reaction speed and process balance"
+      },
+      "silicone-surfactants": {
+        "title": "Silicone Surfactants",
+        "subtitle": "Stabilize foam cells for consistent foam quality"
       }
     }
   },

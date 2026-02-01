@@ -5,13 +5,13 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
-const images = ["/band-1.jpg", "/band-2.jpg", "/band-3.jpg", "/band-4.jpg"];
+const images = ["/band-1.jpg", "/band-2.jpg", "/band-3.jpg", "/band-4.jpg", "/band-5.jpg"];
 
 export default function HeroParallaxBands() {
   const t = useTranslations("bands");
   const bgRefs = useRef<HTMLDivElement[]>([]);
 
-  const bands = [0, 1, 2, 3].map((index) => ({
+  const bands = [0, 1, 2, 3, 4].map((index) => ({
     id: index + 1,
     tag1: t(`${index}.tag1`),
     tag2: t(`${index}.tag2`),

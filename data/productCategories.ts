@@ -1,22 +1,27 @@
 export const productCategories = [
   {
-    key: "pigment",
+    key: "polyols",
     image: "/band-1.jpg",
-    slug: "/products/pigment",
+    slug: "/products/polyols",
   },
   {
-    key: "silicone",
+    key: "isocyanates",
     image: "/band-2.jpg",
-    slug: "/products/silicone",
+    slug: "/products/isocyanates",
   },
   {
-    key: "biocides",
+    key: "blowing-agents",
     image: "/band-3.jpg",
-    slug: "/products/biocides",
+    slug: "/products/blowing-agents",
   },
   {
-    key: "additives",
+    key: "pu-catalysts",
     image: "/band-4.jpg",
-    slug: "/products/additives",
+    slug: "/products/pu-catalysts",
+  },
+  {
+    key: "silicone-surfactants",
+    image: "/band-5.jpg",
+    slug: "/products/silicone-surfactants",
   },
 ];

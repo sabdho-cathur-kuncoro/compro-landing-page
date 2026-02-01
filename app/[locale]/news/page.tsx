@@ -6,9 +6,9 @@ import { getTranslations } from "next-intl/server";
 const ITEMS_PER_PAGE = 6;
 
 export const metadata: Metadata = {
-  title: "News & Insights",
+  title: "News & Insights | Polyurethane & Chemical Industry",
   description:
-    "Stay updated with the latest news, trends, and insights from PT Pakar Kimia Utama and the industrial automation industry.",
+    "Stay updated with the latest news, technical insights, and industry trends related to polyurethane raw materials, chemical solutions, and foam applications from PT Pakar Kimia Utama.",
 };
 
 export default async function NewsPage({

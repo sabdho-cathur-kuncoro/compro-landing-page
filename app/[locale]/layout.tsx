@@ -10,37 +10,36 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export const metadata: Metadata = {
   title: {
-    default:
-      "PT Pakar Kimia Utama - Industrial Automation & Manufacturing Solutions",
+    default: "PT Pakar Kimia Utama | Polyurethane & Chemical Raw Materials",
     template: "%s | PT Pakar Kimia Utama",
   },
   description:
-    "Leading provider of industrial automation and manufacturing solutions. Empowering businesses with cutting-edge technology, smart manufacturing, and robotics systems.",
+    "PT Pakar Kimia Utama is a trusted supplier of polyurethane raw materials including polyols, isocyanates, additives, and foam solutions for furniture, bedding, and industrial applications.",
   keywords: [
-    "industrial automation",
-    "manufacturing solutions",
-    "smart manufacturing",
-    "robotics",
-    "quality control",
-    "energy management",
+    "polyurethane raw materials",
+    "polyol supplier",
+    "polypropylene glycol PPG",
+    "polymer polyol POP",
+    "isocyanate TDI supplier",
+    "PU additives",
+    "foam raw materials",
+    "polyurethane foam chemicals",
+    "chemical supplier Indonesia",
   ],
   authors: [{ name: "PT Pakar Kimia Utama" }],
   openGraph: {
-    title:
-      "PT Pakar Kimia Utama - Industrial Automation & Manufacturing Solutions",
+    title: "PT Pakar Kimia Utama | Polyurethane & Chemical Raw Materials",
     description:
-      "Leading provider of industrial automation and manufacturing solutions.",
-    // url: "https://PTPakarKimiaUtama.com",
+      "Trusted supplier of polyurethane raw materials, polyols, isocyanates, and additives for foam, furniture, and industrial applications.",
     siteName: "PT Pakar Kimia Utama",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "PT Pakar Kimia Utama - Industrial Automation & Manufacturing Solutions",
+    title: "PT Pakar Kimia Utama | Polyurethane Raw Materials Supplier",
     description:
-      "Leading provider of industrial automation and manufacturing solutions.",
+      "Supplying polyols, isocyanates, and PU additives for polyurethane foam and industrial applications.",
   },
   robots: {
     index: true,

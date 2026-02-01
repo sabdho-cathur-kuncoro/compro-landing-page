@@ -8,30 +8,18 @@ export default function LanguageSwitcher() {
 
   const segments = pathname.split("/");
   const currentLocale = segments[1];
-  // const restPath = "/" + segments.slice(2).join("/");
 
   const replaceLocale = (locale: "en" | "id") => {
     if (!pathname) return `/${locale}`;
 
-    // const segments = pathname.split("/");
-
-    // segments[0] = ""
-    // segments[1] = current locale
-    // segments[2...] = rest path
-
     if (segments[1] === "en" || segments[1] === "id") {
-      segments[1] = locale; // 🔥 REPLACE locale
+      segments[1] = locale; //
       return segments.join("/");
     }
 
     // fallback (should not happen normally)
     return `/${locale}${pathname}`;
   };
-
-  // const buildPath = (locale: string) => {
-  //   if (restPath === "/") return `/${locale}`;
-  //   return `/${locale}${restPath}`;
-  // };
 
   return (
     <div

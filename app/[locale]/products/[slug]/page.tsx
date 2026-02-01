@@ -1,9 +1,14 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { notFound } from "next/navigation";
 import { productsByCategory } from "@/data/products";
 import ProductCategoryClient from "./ProductCategoryClient";
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
+
+export const metadata = {
+  title: "Polyols for Polyurethane Foam",
+  description:
+    "High-quality PPG and POP polyols for flexible polyurethane foam applications.",
+};
 
 type Props = {
   params: Promise<{

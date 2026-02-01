@@ -22,7 +22,7 @@ export default function ProductCategoryClient({
             {/* IMAGE */}
             <div className="relative h-55 overflow-hidden">
               <Image
-                src={product.image}
+                src={product.images[0]}
                 alt={product.name}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"

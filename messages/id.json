@@ -7,36 +7,43 @@
     "contact": "Hubungi Kami"
   },
   "hero": {
-    "headline": "Berinovasi untuk Menghadirkan Teknologi yang Lebih Baik",
-    "subtitle": "Menyediakan solusi kimia dan polimer canggih untuk industri modern"
+    "headline": "Bahan Baku Polyurethane Andal untuk Industri Modern",
+    "subtitle": "Menyediakan polyol, isosianat, aditif, dan solusi foam untuk industri furniture, bedding, dan otomotif"
   },
   "bands": [
     {
-      "tag1": "Persiapan Pigmen",
-      "tag2": "Pasta Pigmen | Dispersi Halus",
-      "title": "Pasta pigmen dari PT Pakar Kimia Utama dikelompokkan ke dalam tiga sistem utama: berbasis air, berbasis pelarut, dan bebas pelarut untuk aplikasi pelapisan tingkat lanjut.",
-      "slug": "/products/pigment",
+      "tag1": "Polyols",
+      "tag2": "Fondasi utama performa polyurethane yang fleksibel",
+      "title": "Polyol merupakan bahan baku utama dalam sistem polyurethane yang berperan menentukan fleksibilitas, daya tahan, dan performa mekanik produk foam.",
+      "slug": "/products/polyols",
       "cta": "Lebih Lanjut"
     },
     {
-      "tag1": "Silikon",
-      "tag2": "Polimer Berkinerja Tinggi",
-      "title": "Teknologi silikon canggih yang dirancang untuk memberikan daya tahan, fleksibilitas, dan kinerja unggul pada aplikasi industri.",
-      "slug": "/products/silicone",
+      "tag1": "Isocyanates",
+      "tag2": "Membentuk struktur utama polyurethane",
+      "title": "Isosianat merupakan komponen reaktif yang bereaksi dengan polyol untuk membentuk struktur polimer polyurethane.",
+      "slug": "/products/isocyanates",
       "cta": "Lebih Lanjut"
     },
     {
-      "tag1": "Biocides",
-      "tag2": "Sistem Perlindungan",
-      "title": "Sistem pengawet yang sangat efektif untuk melindungi material dari bakteri, jamur, dan pertumbuhan mikroorganisme.",
-      "slug": "/products/biocides",
+      "tag1": "Blowing Agents",
+      "tag2": "Mengontrol struktur dan density foam",
+      "title": "Blowing agent digunakan untuk membentuk struktur sel pada polyurethane foam melalui pembentukan gas selama proses reaksi.",
+      "slug": "/products/blowing-agents",
       "cta": "Lebih Lanjut"
     },
     {
-      "tag1": "Aditif",
-      "tag2": "Peningkat Fungsional",
-      "title": "Aditif khusus yang diformulasikan untuk meningkatkan efisiensi proses, stabilitas, dan kinerja di berbagai industri.",
-      "slug": "/products/additives",
+      "tag1": "PU Catalysts",
+      "tag2": "Kontrol presisi untuk reaksi polyurethane",
+      "title": "Katalis PU merupakan aditif penting yang berfungsi mengontrol kecepatan dan keseimbangan reaksi gel dan blowing dalam proses pembuatan polyurethane foam, sehingga menghasilkan kualitas foam yang stabil dan konsisten.",
+      "slug": "/products/pu-catalysts",
+      "cta": "Lebih Lanjut"
+    },
+    {
+      "tag1": "Silicone Surfactants",
+      "tag2": "Stabilitas optimal untuk struktur foam sempurna",
+      "title": "Silicone surfactant berfungsi sebagai penstabil sel dalam sistem polyurethane foam, membantu menghasilkan struktur sel yang halus dan seragam serta mencegah cacat foam seperti collapse atau pori yang tidak merata.",
+      "slug": "/products/silicone-surfactants",
       "cta": "Lebih Lanjut"
     }
   ],
@@ -86,21 +93,25 @@
       "products": "Produk"
     },
     "categories": {
-      "pigment": {
+      "polyols": {
         "title": "Persiapan Pigmen",
-        "desc": "Pasta pigmen dan dispersi berkualitas tinggi"
+        "desc": "Bahan dasar polyurethane untuk fleksibilitas dan kekuatan foam"
       },
-      "silicone": {
-        "title": "Silikon",
-        "desc": "Solusi polimer berkinerja tinggi"
+      "isocyanates": {
+        "title": "Isocyanates",
+        "desc": "Komponen reaktif pembentuk struktur polyurethane"
       },
-      "biocides": {
-        "title": "Biosida",
-        "desc": "Sistem perlindungan dan pengawetan lanjutan"
+      "blowing-agents": {
+        "title": "Blowing Agents",
+        "desc": "Pengontrol density dan struktur sel foam"
       },
-      "additives": {
-        "title": "Aditif",
-        "desc": "Penguat fungsional untuk performa lebih baik"
+      "pu-catalysts": {
+        "title": "PU Catalysts",
+        "desc": "Pengatur kecepatan dan keseimbangan reaksi PU"
+      },
+      "silicone-surfactants": {
+        "title": "Silicone Surfactants",
+        "desc": "Penstabil sel untuk kualitas foam yang optimal"
       }
     },
     "cta": "Lihat Produk"
@@ -111,21 +122,25 @@
       "products": "Produk"
     },
     "categories": {
-      "pigment": {
+      "polyols": {
         "title": "Persiapan Pigmen",
-        "subtitle": "Pasta pigmen dan dispersi berkualitas tinggi untuk aplikasi pelapisan tingkat lanjut"
+        "subtitle": "Bahan dasar polyurethane untuk fleksibilitas dan kekuatan foam"
       },
-      "silicone": {
-        "title": "Silikon",
-        "subtitle": "Sistem polimer berkinerja tinggi untuk berbagai solusi industri"
+      "isocyanates": {
+        "title": "Isocyanates",
+        "subtitle": "Komponen reaktif pembentuk struktur polyurethane"
       },
-      "biocides": {
-        "title": "Biosida",
-        "subtitle": "Sistem perlindungan dan pengawetan tingkat lanjut untuk aplikasi industri"
+      "blowing-agents": {
+        "title": "Blowing Agents",
+        "subtitle": "Pengontrol density dan struktur sel foam"
       },
-      "additives": {
-        "title": "Aditif",
-        "subtitle": "Penguat fungsional yang dirancang untuk meningkatkan efisiensi proses dan kinerja"
+      "pu-catalysts": {
+        "title": "PU Catalysts",
+        "subtitle": "Pengatur kecepatan dan keseimbangan reaksi PU"
+      },
+      "silicone-surfactants": {
+        "title": "Silicone Surfactants",
+        "subtitle": "Penstabil sel untuk kualitas foam yang optimal"
       }
     }
   },
