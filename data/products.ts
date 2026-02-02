@@ -100,7 +100,7 @@ export const productsByCategory: Record<
       weight: "Drum @250kg",
       desc: "Reactive components forming the polyurethane polymer structure",
       long_desc:
-        "Kukdo Polypropylene Glycol (PPG) is a high-quality polyether polyol designed for flexible polyurethane foam applications. It provides excellent flexibility, elasticity, and mechanical strength, making it suitable for furniture, bedding, and automotive seating. With consistent quality and stable processing behavior, Kukdo PPG ensures reliable foam performance and uniform cell structure.",
+        "Lupranate T-80 is a toluene diisocyanate (TDI) widely used as a key reactive component in flexible polyurethane foam systems. It reacts with polyols to form the polyurethane polymer structure, delivering excellent elasticity, resilience, and mechanical performance. Lupranate T-80 is commonly applied in furniture, bedding, and automotive seating foam where consistent quality and reliable processing are required.",
       images: ["/images/products/TDI.jpg", "/images/products/TDI(2).jpg"],
     },
   ],
@@ -112,7 +112,7 @@ export const productsByCategory: Record<
       weight: "Drum @270kg",
       desc: "Control foam density and cell structure",
       long_desc:
-        "Kukdo Polypropylene Glycol (PPG) is a high-quality polyether polyol designed for flexible polyurethane foam applications. It provides excellent flexibility, elasticity, and mechanical strength, making it suitable for furniture, bedding, and automotive seating. With consistent quality and stable processing behavior, Kukdo PPG ensures reliable foam performance and uniform cell structure.",
+        "Methylene Chloride (MC – LUXI) is a physical blowing agent commonly used in flexible polyurethane foam production. It helps create a uniform cellular structure while controlling foam density and softness. MC provides stable processing performance and is widely applied in furniture, bedding, and cushioning foam applications.",
       images: [
         "/images/products/MC-LUXI.jpg",
         "/images/products/MC-LUXI(2).jpg",
@@ -127,7 +127,7 @@ export const productsByCategory: Record<
       weight: "Jerigen @25kg",
       desc: "Regulate reaction speed and process balance",
       long_desc:
-        "Kukdo Polypropylene Glycol (PPG) is a high-quality polyether polyol designed for flexible polyurethane foam applications. It provides excellent flexibility, elasticity, and mechanical strength, making it suitable for furniture, bedding, and automotive seating. With consistent quality and stable processing behavior, Kukdo PPG ensures reliable foam performance and uniform cell structure.",
+        "Stannous Octoate T9 is a tin-based catalyst widely used in flexible polyurethane foam systems. It functions as a gel catalyst, promoting polymer formation and improving foam strength and curing efficiency. Stannous Octoate T9 provides reliable reaction control and is commonly applied in furniture, bedding, and automotive foam production.",
       images: ["/images/products/T9.jpg"],
     },
     {
@@ -136,7 +136,7 @@ export const productsByCategory: Record<
       weight: "Jerigen @25kg",
       desc: "Regulate reaction speed and process balance",
       long_desc:
-        "Kukdo Polypropylene Glycol (PPG) is a high-quality polyether polyol designed for flexible polyurethane foam applications. It provides excellent flexibility, elasticity, and mechanical strength, making it suitable for furniture, bedding, and automotive seating. With consistent quality and stable processing behavior, Kukdo PPG ensures reliable foam performance and uniform cell structure.",
+        "Amine Catalyst A33 is a tertiary amine catalyst commonly used in flexible polyurethane foam systems. It primarily functions as a blowing catalyst, accelerating the reaction between isocyanates and water to generate gas and form the foam structure. Amine Catalyst A33 helps control cream time and rise profile, ensuring consistent foam quality and stable processing conditions.",
       images: ["/images/products/A33.jpg"],
     },
   ],
@@ -148,7 +148,7 @@ export const productsByCategory: Record<
       weight: "Drum @210kg",
       desc: "Stabilize foam cells for consistent foam quality",
       long_desc:
-        "Kukdo Polypropylene Glycol (PPG) is a high-quality polyether polyol designed for flexible polyurethane foam applications. It provides excellent flexibility, elasticity, and mechanical strength, making it suitable for furniture, bedding, and automotive seating. With consistent quality and stable processing behavior, Kukdo PPG ensures reliable foam performance and uniform cell structure.",
+        "Silicone Oil 580 is a silicone-based surfactant used as a cell stabilizer in flexible polyurethane foam systems. It helps control cell structure, improve foam uniformity, and prevent defects such as collapse and irregular pores. Silicone Oil 580 supports stable processing and is widely applied in furniture, bedding, and cushioning foam production.",
       images: [
         "/images/products/Sil-Oil-580.jpg",
         "/images/products/Sil-Oil-580(2).jpg",

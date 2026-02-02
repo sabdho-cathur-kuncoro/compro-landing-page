@@ -11,6 +11,11 @@ import {
 import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const phoneNumber = "6282216769729"; // Your phone number without + or spaces
+  const message = encodeURIComponent(
+    "Halo, saya ingin bertanya mengenai produk polyurethane."
+  );
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
   const t = useTranslations("footer");
   return (
     <footer className="bg-bg border-t border-border">
@@ -79,13 +84,16 @@ export default function Footer() {
             </li> */}
 
             <li className="flex items-center gap-3">
-              <FaWhatsapp className="text-green-500" size={16} />
-              <span>Jakarta (WhatsApp)</span>
-            </li>
-            <li className="flex items-center gap-3">
               <Mail size={16} className="text-primary" />
               <span>marketing1@pakar-ku.com</span>
             </li>
+
+            <Link href={whatsappUrl} target="_blank">
+              <li className="flex items-center gap-3">
+                <FaWhatsapp className="text-green-500" size={16} />
+                <span>+62 822-1676-9729</span>
+              </li>
+            </Link>
 
             {/* <li className="flex items-center gap-3">
               <FaWhatsapp className="text-green-500" size={16} />

@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Metadata } from "next";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import WhatsAppFab from "@/components/WhatsappFAB";
 
 export const metadata: Metadata = {
   title: {
@@ -58,7 +59,7 @@ export default async function LocaleLayout({
   children: ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  // 🔴 IMPORTANT: params IS A PROMISE IN NEXT.JS 16
+  // IMPORTANT: params IS A PROMISE IN NEXT.JS 16
   const { locale } = await params;
 
   // Validate locale
@@ -76,8 +77,8 @@ export default async function LocaleLayout({
           <Navbar />
           <main>{children}</main>
           <Footer />
-          {/* FIXED LANGUAGE BUTTON */}
           <LanguageSwitcher />
+          <WhatsAppFab />
         </NextIntlClientProvider>
       </body>
     </html>

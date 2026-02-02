@@ -8,10 +8,8 @@ export default async function Home() {
     <>
       {/* Hero Section */}
       <Hero />
-
       {/* Product Categories Section */}
       <HeroParallaxBands />
-
       {/* Latest News Section */}
       {/* <LatestNews /> */}
     </>
